@@ -1,0 +1,2285 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<character unique_id="i0zwy7tf:-1dn9f6iv8cyl5" version="2">
+	<created_date>Oct 7, 2014</created_date>
+	<modified_date>Feb 3, 2015 7:12 PM</modified_date>
+	<profile>
+		<player_name>vanboxel</player_name>
+		<name>Zeno</name>
+		<title>Former Woodcutter</title>
+		<age>24</age>
+		<birthday>February 2</birthday>
+		<eyes>Blue</eyes>
+		<hair>Brown, Wavy, Short</hair>
+		<skin>Pale</skin>
+		<handedness>Right</handedness>
+		<height>5' 9"</height>
+		<weight>150 lb</weight>
+		<SM>0</SM>
+		<gender>Male</gender>
+		<race>Human</race>
+		<tech_level>4</tech_level>
+		<religion>Triad-lite</religion>
+		<notes>Extra Pts: 12
+$: 857
+
+Elves are:
+-light
+-people?
+-fire/wood/water
+-like/hate magic pendants
+-unreadable fortunes
+-golden blood</notes>
+		<!-- The portrait is a PNG file encoded as Base64. -->
+		<portrait>
+iVBORw0KGgoAAAANSUhEUgAAAJAAAADACAYAAADryOpPAAA1z0lEQVR42u3dBbA0R9UG4I8fd3fX
+4E5wdw/uAYIEt0BwCxDcCRDB3QkOwd3d3d3d969nq96tzmRm78zu7Ozcy3bV1Cd3785M9+lz3vMe
+6V2TzdiMJcauzRRsxkaANmMjQJuxEaDN2AjQZmzGRoA2YyNAm7ERoBWM3/72t5OHPOQhk7vd7W6T
+e97znq2vpzzlKZNXvOIVk5e85CVHuF7wghdM3vve904+85nPHOH69Kc/PfnCF74w+f3vfz/5xz/+
+Mfn73//e+/XPf/5z8pOf/GTy2c9+dnbP973vfZMXv/jFk5e+9KWTJz3pSZO73/3uk3333Xf6s//8
+5z8bAVp0POYxj5kc6UhH6nwd7WhHmxz3uMedHOc4xznCdexjH3tyspOdbHKa05ym9jrtaU87Of/5
+zz+56EUvOtl99917v3zvbrvtNr1P7nnyk5989nxHPepRZ+9xnetcZ/K9731vI0CLjK9//evTSd61
+a9fhrv/7v/+bnOIUp5ic5SxnmZzxjGecnOEMZ5heFuFYxzrWVED8WXdZnKMc5Si115GPfOTZwlXv
+2feV+7hn7u/ZPOMxjnGM2TNc+MIXnnz+85+f/Pe//90IUJfxr3/9a7LPPvtMNYmJpE1OcIITTP/u
+/253u9tNvvnNb05N3K9+9avpnyb6la985eS1r33t5DWvec3hrvzfU5/61MmDH/zgqVksr4c+9KHT
++13vetebXPOa15xc61rXarwue9nLTs51rnNNznnOc07/nHed97znnVz+8pefXPva1z7cd+QezJT7
+e6bHPe5xk9e97nWTpz3tadON4V1PdapTTd7+9rdP/v3vf28EqMv4xCc+MTnzmc882613uctdJvvt
+t99MoOzcPffcc/Kd73yn1/vCKH/5y18mf/3rXxuv3/zmN9P7fvvb397yYn5+97vfTf72t78d7jty
+j7rx61//enKNa1xj+p42zcte9rIpbtoIUMthsu573/vOhIW5om1++ctfTm5729tOtVFMwU1ucpMp
+6N1Jgza92c1uNtsocGCTsG0EqEH7nOc855kJySMf+cjZz37+859P/02o8vPLXe5yUzW/k8b+++8/
+xUTe79a3vvXUTI8FB41agP70pz9N7nSnO02OfvSjTyfvUpe61HRHVj/z8pe/fHLuc597JkRnPetZ
+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
+		</portrait>
+	</profile>
+	<HP>0</HP>
+	<FP>0</FP>
+	<total_points>150</total_points>
+	<ST>11</ST>
+	<DX>13</DX>
+	<IQ>11</IQ>
+	<HT>11</HT>
+	<will>0</will>
+	<perception>1</perception>
+	<speed>0</speed>
+	<move>0</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Advantages</name>
+			<advantage version="2">
+				<name>Combat Reflexes</name>
+				<type>Mental</type>
+				<base_points>15</base_points>
+				<reference>B43</reference>
+				<notes>Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)</notes>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+				<skill_bonus>
+					<name compare="starts with">fast-draw</name>
+					<specialization compare="is anything"></specialization>
+					<amount>1</amount>
+				</skill_bonus>
+				<attribute_bonus>
+					<attribute>dodge</attribute>
+					<amount>1</amount>
+				</attribute_bonus>
+				<attribute_bonus>
+					<attribute>parry</attribute>
+					<amount>1</amount>
+				</attribute_bonus>
+				<attribute_bonus>
+					<attribute>block</attribute>
+					<amount>1</amount>
+				</attribute_bonus>
+				<attribute_bonus>
+					<attribute>fright check</attribute>
+					<amount>2</amount>
+				</attribute_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Flexibility</name>
+				<type>Physical</type>
+				<base_points>5</base_points>
+				<reference>B56</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+				<skill_bonus>
+					<name compare="is">climbing</name>
+					<specialization compare="is anything"></specialization>
+					<amount>3</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">escape</name>
+					<specialization compare="is anything"></specialization>
+					<amount>3</amount>
+				</skill_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Higher Purpose</name>
+				<type>Mental, Exotic</type>
+				<base_points>5</base_points>
+				<reference>B59</reference>
+				<notes>Hunt all monsters</notes>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Honest Face</name>
+				<type>Physical</type>
+				<base_points>1</base_points>
+				<reference>B101</reference>
+				<notes>+1 when acting innocent</notes>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Magic Resistance</name>
+				<type>Physical</type>
+				<levels>1</levels>
+				<points_per_level>2</points_per_level>
+				<modifier version="1" enabled="no">
+					<name>Improved</name>
+					<cost type="percentage">150</cost>
+					<affects>total</affects>
+					<reference>B67</reference>
+				</modifier>
+				<reference>B67</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Patron</name>
+				<type>Social</type>
+				<modifier version="1" enabled="no">
+					<name>@Who: Individual with 150% of PC's starting points@</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Demon Hunter's Society</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: Individual with twice the PC's starting points@</name>
+					<cost type="points">10</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: Organization with assets of at least 10000 times starting wealth@</name>
+					<cost type="points">15</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: An ultra-powerful individual@</name>
+					<cost type="points">20</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: Organization with assets of at least 100000 times starting wealth@</name>
+					<cost type="points">20</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: Organization with assets of at least 1000000 times starting wealth@</name>
+					<cost type="points">25</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: A national government or giant multi-national organization@</name>
+					<cost type="points">30</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>@Who: A diety@</name>
+					<cost type="points">30</cost>
+					<affects>total</affects>
+					<reference>B72</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Appears almost all the time</name>
+					<cost type="multiplier">3</cost>
+					<reference>B36</reference>
+					<notes>15-</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Appears quite often</name>
+					<cost type="multiplier">2</cost>
+					<reference>B36</reference>
+					<notes>12-</notes>
+				</modifier>
+				<modifier version="1">
+					<name>Appears fairly often</name>
+					<cost type="multiplier">1</cost>
+					<reference>B36</reference>
+					<notes>9-</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Appears quite rarely</name>
+					<cost type="multiplier">0.5</cost>
+					<reference>B36</reference>
+					<notes>6-</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Equipment</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+					<notes>@Equipment worth no more than average starting wealth@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Equipment</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+					<notes>@Equipment worth more than average starting wealth@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Highly Accessible</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Special Abilities</name>
+					<cost type="percentage">50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+					<notes>@Extensive social or political power@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Special Abilities</name>
+					<cost type="percentage">100</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+					<notes>@Magical powers in a non-magical world, higher TL equipment, grants special powers or is supernatural@</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Minimal Interventions</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+				</modifier>
+				<modifier version="1">
+					<name>Secret</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B73</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Unwilling</name>
+					<cost type="percentage">-50</cost>
+					<affects>total</affects>
+					<reference>B74</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Favor</name>
+					<cost type="multiplier">0.2</cost>
+					<reference>B55</reference>
+				</modifier>
+				<reference>B72</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Unfazeable</name>
+				<type>Mental</type>
+				<base_points>15</base_points>
+				<reference>B95</reference>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Language: Terendin</name>
+				<type>Mental</type>
+				<modifier version="1" enabled="no">
+					<name>Native</name>
+					<cost type="points">-6</cost>
+					<affects>total</affects>
+					<reference>B23</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Spoken</name>
+					<cost type="points">0</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>None</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Spoken</name>
+					<cost type="points">1</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>Broken</notes>
+				</modifier>
+				<modifier version="1">
+					<name>Spoken</name>
+					<cost type="points">2</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>Accented</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Spoken</name>
+					<cost type="points">3</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>Native</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Written</name>
+					<cost type="points">0</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>None</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Written</name>
+					<cost type="points">1</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>Broken</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Written</name>
+					<cost type="points">2</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>Accented</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Written</name>
+					<cost type="points">3</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>Native</notes>
+				</modifier>
+				<reference>B24</reference>
+				<categories>
+					<category>Advantage</category>
+					<category>Language</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Language: Freespeak</name>
+				<type>Mental</type>
+				<modifier version="1">
+					<name>Native</name>
+					<cost type="points">-6</cost>
+					<affects>total</affects>
+					<reference>B23</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Spoken</name>
+					<cost type="points">0</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>None</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Spoken</name>
+					<cost type="points">1</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>Broken</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Spoken</name>
+					<cost type="points">2</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>Accented</notes>
+				</modifier>
+				<modifier version="1">
+					<name>Spoken</name>
+					<cost type="points">3</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>Native</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Written</name>
+					<cost type="points">0</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>None</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Written</name>
+					<cost type="points">1</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>Broken</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Written</name>
+					<cost type="points">2</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>Accented</notes>
+				</modifier>
+				<modifier version="1">
+					<name>Written</name>
+					<cost type="points">3</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>Native</notes>
+				</modifier>
+				<reference>B24</reference>
+				<categories>
+					<category>Advantage</category>
+					<category>Language</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Language: Sabrian</name>
+				<type>Mental</type>
+				<modifier version="1" enabled="no">
+					<name>Native</name>
+					<cost type="points">-6</cost>
+					<affects>total</affects>
+					<reference>B23</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Spoken</name>
+					<cost type="points">0</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>None</notes>
+				</modifier>
+				<modifier version="1">
+					<name>Spoken</name>
+					<cost type="points">1</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>Broken</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Spoken</name>
+					<cost type="points">2</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>Accented</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Spoken</name>
+					<cost type="points">3</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>Native</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Written</name>
+					<cost type="points">0</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>None</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Written</name>
+					<cost type="points">1</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>Broken</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Written</name>
+					<cost type="points">2</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>Accented</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Written</name>
+					<cost type="points">3</cost>
+					<affects>total</affects>
+					<reference>B24</reference>
+					<notes>Native</notes>
+				</modifier>
+				<reference>B24</reference>
+				<categories>
+					<category>Advantage</category>
+					<category>Language</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage version="2">
+			<name>Bloodlust</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<cr>12</cr>
+			<reference>B125</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Delusion (Demon Hunter's Society gives me secret missions.)</name>
+			<type>Mental</type>
+			<modifier version="1">
+				<name>Minor</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B130</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Major</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B130</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Severe</name>
+				<cost type="points">-15</cost>
+				<affects>total</affects>
+				<reference>B130</reference>
+			</modifier>
+			<reference>B130</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Enemy (Sabrian Merchant Family)</name>
+			<type>Social</type>
+			<modifier version="1" enabled="no">
+				<name>Weak Individual</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+				<notes>50% of your starting points</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Equal Individual</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+				<notes>100% of your starting points</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Powerful Individual</name>
+				<cost type="points">-20</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+				<notes>&gt;150% of your starting points</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Weak Group</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Medium Group</name>
+				<cost type="points">-20</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears almost all the time</name>
+				<cost type="multiplier">3</cost>
+				<reference>B36</reference>
+				<notes>15-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears quite often</name>
+				<cost type="multiplier">2</cost>
+				<reference>B36</reference>
+				<notes>12-</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Appears fairly often</name>
+				<cost type="multiplier">1</cost>
+				<reference>B36</reference>
+				<notes>9-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears quite rarely</name>
+				<cost type="multiplier">0.5</cost>
+				<reference>B36</reference>
+				<notes>6-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Large/Powerful Group</name>
+				<cost type="points">-30</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Utterly Formidible Group</name>
+				<cost type="points">-40</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Unknown</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Evil Twin</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Evil Twin</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+				<notes>More skilled or extra abilities</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Evil Twin</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+				<notes>More skilled and extra abilities</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Watcher</name>
+				<cost type="multiplier">0.25</cost>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Rival</name>
+				<cost type="multiplier">0.5</cost>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Hunter</name>
+				<cost type="multiplier">1</cost>
+				<reference>B135</reference>
+			</modifier>
+			<reference>B135</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Flashbacks (Mild-2, 2D seconds)</name>
+			<type>Physical</type>
+			<base_points>-5</base_points>
+			<reference>B136</reference>
+			<notes>CR: 15</notes>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Sense of Duty</name>
+			<type>Mental</type>
+			<modifier version="1" enabled="no">
+				<name>Friends and Companions</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B153</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Demon Hunters</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B153</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Individual@</name>
+				<cost type="points">-2</cost>
+				<affects>total</affects>
+				<reference>B153</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Large Group@</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B153</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Entire Race@</name>
+				<cost type="points">-15</cost>
+				<affects>total</affects>
+				<reference>B153</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Every Living Being</name>
+				<cost type="points">-20</cost>
+				<affects>total</affects>
+				<reference>B153</reference>
+			</modifier>
+			<reference>B153</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Attentive</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B163</reference>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Intolerance (Monsters)</name>
+			<type>Mental</type>
+			<modifier version="1" enabled="no">
+				<name>Scope: Common</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B140</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Scope: Occassional</name>
+				<cost type="points">-2</cost>
+				<affects>total</affects>
+				<reference>B140</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Scope: Rare</name>
+				<cost type="points">-1</cost>
+				<affects>total</affects>
+				<reference>B140</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Scope: Anyone unlike you</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B140</reference>
+			</modifier>
+			<reference>B140</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Like Fine Crossbows</name>
+			<type>Mental</type>
+			<levels>0</levels>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Staid</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Uncongenial</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Magery</name>
+			<type>Mental, Supernatural</type>
+			<levels>0</levels>
+			<base_points>5</base_points>
+			<points_per_level>10</points_per_level>
+			<modifier version="1" enabled="no">
+				<name>Dance</name>
+				<cost type="percentage">-40</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Dark-Aspected</name>
+				<cost type="percentage">-50</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Day-Aspected</name>
+				<cost type="percentage">-40</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Musical</name>
+				<cost type="percentage">-50</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Night-Aspected</name>
+				<cost type="percentage">-40</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>One College</name>
+				<cost type="percentage">-40</cost>
+				<affects>levels only</affects>
+				<notes>@College@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Solitary</name>
+				<cost type="percentage">-40</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Song</name>
+				<cost type="percentage">-40</cost>
+				<affects>levels only</affects>
+			</modifier>
+			<reference>B66</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<spell_bonus all_colleges="yes">
+				<amount per_level="yes">1</amount>
+			</spell_bonus>
+			<skill_bonus>
+				<name compare="is">thaumatology</name>
+				<specialization compare="is anything"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Night Vision</name>
+			<type>Physical</type>
+			<levels>2</levels>
+			<points_per_level>1</points_per_level>
+			<reference>B71</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+	</advantage_list>
+	<skill_list>
+		<skill version="2">
+			<name>Acrobatics</name>
+			<difficulty>DX/H</difficulty>
+			<points>6</points>
+			<reference>B174</reference>
+			<categories>
+				<category>Athletic</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Acting</name>
+			<difficulty>IQ/A</difficulty>
+			<points>3</points>
+			<reference>B174</reference>
+			<categories>
+				<category>Social</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Performance</name>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Public Speaking</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Area Knowledge</name>
+			<specialization>Terendor</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B176</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Geography</name>
+				<specialization>Terendor</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Area Knowledge</name>
+			<specialization>The Frees</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>2</points>
+			<reference>B176</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Geography</name>
+				<specialization>The Frees</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Axe/Mace</name>
+			<difficulty>DX/A</difficulty>
+			<points>3</points>
+			<reference>B208</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Two-Handed Axe/Mace</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Flail</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Carpentry</name>
+			<difficulty>IQ/E</difficulty>
+			<points>2</points>
+			<reference>B183</reference>
+			<categories>
+				<category>Craft</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Climbing</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>5</points>
+			<reference>B183</reference>
+			<categories>
+				<category>Athletic</category>
+				<category>Criminal/Street</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Cloak</name>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B184</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Net</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Crossbow</name>
+			<difficulty>DX/E</difficulty>
+			<points>9</points>
+			<reference>B186</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Current Affairs</name>
+			<specialization>Headline News</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>3</points>
+			<reference>B186</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Research</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Current Affairs</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Detect Lies</name>
+			<difficulty>Per/H</difficulty>
+			<points>2</points>
+			<reference>B187</reference>
+			<categories>
+				<category>Police</category>
+				<category>Social</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Body Language</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Psychology</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Diplomacy</name>
+			<difficulty>IQ/H</difficulty>
+			<points>6</points>
+			<reference>B187</reference>
+			<categories>
+				<category>Business</category>
+				<category>Police</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Politics</name>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Disguise</name>
+			<specialization>Human</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B187</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Makeup</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Tracking</name>
+			<difficulty>Per/A</difficulty>
+			<points>2</points>
+			<reference>B226</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Escape</name>
+			<difficulty>DX/H</difficulty>
+			<points>1</points>
+			<reference>B192</reference>
+			<categories>
+				<category>Criminal/Street</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Fast-Draw</name>
+			<specialization>Bolt</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>2</points>
+			<reference>B194</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+		</skill>
+		<skill version="2">
+			<name>Fast-Talk</name>
+			<difficulty>IQ/A</difficulty>
+			<points>3</points>
+			<reference>B195</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Social</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Acting</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>First Aid</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>2</points>
+			<reference>B195</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Medical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Esoteric Medicine</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Forgery</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B196</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Counterfeiting</name>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Guns</name>
+			<specialization>Pistol</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>DX/E</difficulty>
+			<points>2</points>
+			<reference>B198</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<specialization>Pistol</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Guns</name>
+			<specialization>Shotgun</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>DX/E</difficulty>
+			<points>0</points>
+			<reference>B198</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Interrogation</name>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B202</reference>
+			<categories>
+				<category>Military</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Intimidation</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Psychology</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Intimidation</name>
+			<difficulty>Will/A</difficulty>
+			<points>2</points>
+			<reference>B202</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Acting</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Lockpicking</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B206</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+				<category>Technical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Merchant</name>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B209</reference>
+			<categories>
+				<category>Business</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Finance</name>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Market Analysis</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Naturalist</name>
+			<specialization>Earthlike</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>6</points>
+			<reference>B211</reference>
+			<categories>
+				<category>Animal</category>
+				<category>Natural Science</category>
+				<category>Outdoor/Exploration</category>
+				<category>Plant</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Biology</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Public Speaking</name>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B216</reference>
+			<categories>
+				<category>Business</category>
+				<category>Scholarly</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Acting</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Performance</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Politics</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Research</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B217</reference>
+			<categories>
+				<category>Scholarly</category>
+				<category>Spy</category>
+			</categories>
+			<prereq_list all="yes">
+				<prereq_list all="yes">
+					<when_tl compare="at least">8</when_tl>
+					<skill_prereq has="yes">
+						<name compare="is">Computer Operation</name>
+						<specialization compare="is anything"></specialization>
+					</skill_prereq>
+				</prereq_list>
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="starts with">Language</name>
+						<notes compare="contains">Written (Native</notes>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="starts with">Language</name>
+						<notes compare="contains">Written (Accented)</notes>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="starts with">Language</name>
+						<notes compare="contains">Written (Broken)</notes>
+					</advantage_prereq>
+				</prereq_list>
+			</prereq_list>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Writing</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Sleight of Hand</name>
+			<difficulty>DX/H</difficulty>
+			<points>2</points>
+			<reference>B221</reference>
+			<categories>
+				<category>Arts/Entertainment</category>
+				<category>Criminal/Street</category>
+			</categories>
+			<default>
+				<type>Skill</type>
+				<name>Filch</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Stealth</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>4</points>
+			<reference>B222</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Fast-Draw</name>
+			<specialization>Pistol</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B194</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+		</skill>
+		<technique version="2" limit="-2">
+			<name>Targeted Attack (Crossbow to Hand)</name>
+			<difficulty>H</difficulty>
+			<points>1</points>
+			<default>
+				<type>Skill</type>
+				<name>Crossbow</name>
+				<modifier>-4</modifier>
+			</default>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Crossbow</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<technique version="2" limit="-2">
+			<name>Targeted Attack (Axe to Neck)</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<default>
+				<type>Skill</type>
+				<name>Axe/Mace</name>
+				<modifier>-5</modifier>
+			</default>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Axe/Mace</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<skill version="2">
+			<name>Navigation</name>
+			<specialization>Land</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B211</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+				<category>Technical</category>
+				<category>Vehicle</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Cartography</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Mathematics</name>
+				<specialization>Surveying</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Navigation</name>
+				<specialization>Air</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Navigation</name>
+				<specialization>Sea</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>History</name>
+			<specialization>The Frees</specialization>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B200</reference>
+			<categories>
+				<category>Social Sciences/Humanities</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+	</skill_list>
+	<equipment_list>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Crossbow (ST11)</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>170</value>
+			<weight>6 lb</weight>
+			<reference>B276</reference>
+			<ranged_weapon>
+				<damage>1d+3 imp</damage>
+				<strength>11&#8224;</strength>
+				<accuracy>4</accuracy>
+				<range>220/275</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>1(4)</shots>
+				<bulk>-6</bulk>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Crossbow</name>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Missile Weapon</category>
+			</categories>
+		</equipment>
+		<equipment_container version="3" open="yes" state="equipped">
+			<description>Shoulder Quiver</description>
+			<legality_class>4</legality_class>
+			<value>10</value>
+			<weight>0.5 lb</weight>
+			<reference>DF1:24</reference>
+			<notes>Holds 12 arrows/bolts</notes>
+			<categories>
+				<category>Combat Accessories</category>
+			</categories>
+			<prereq_list all="yes">
+				<contained_weight_prereq has="yes" compare="at most">2 lb</contained_weight_prereq>
+			</prereq_list>
+			<equipment version="3" state="equipped">
+				<quantity>10</quantity>
+				<description>Crossbow Bolt</description>
+				<tech_level>2</tech_level>
+				<legality_class>4</legality_class>
+				<value>2</value>
+				<weight>0.06 lb</weight>
+				<reference>B276</reference>
+				<categories>
+					<category>Ammunition</category>
+					<category>Missile Weapon</category>
+				</categories>
+			</equipment>
+		</equipment_container>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Adventure Basics</description>
+			<tech_level>4</tech_level>
+			<legality_class>4</legality_class>
+			<value>2</value>
+			<weight>4 lb</weight>
+			<reference>B288</reference>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Boots</description>
+			<tech_level>2</tech_level>
+			<legality_class>-</legality_class>
+			<value>80</value>
+			<weight>3 lb</weight>
+			<reference>B284</reference>
+			<categories>
+				<category>Footwear</category>
+			</categories>
+			<dr_bonus>
+				<location>feet</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Leather Gloves</description>
+			<tech_level>1</tech_level>
+			<legality_class>-</legality_class>
+			<value>30</value>
+			<reference>B284</reference>
+			<categories>
+				<category>Gloves</category>
+			</categories>
+			<dr_bonus>
+				<location>hands</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Buff Coat</description>
+			<tech_level>4</tech_level>
+			<legality_class>4</legality_class>
+			<value>210</value>
+			<weight>16 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Body Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>2</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>arms</location>
+				<amount>2</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>legs</location>
+				<amount>2</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Heavy Cloak</description>
+			<tech_level>1</tech_level>
+			<legality_class>-</legality_class>
+			<value>50</value>
+			<weight>5 lb</weight>
+			<reference>B287</reference>
+			<melee_weapon>
+				<damage>-</damage>
+				<strength>-</strength>
+				<reach>-</reach>
+				<parry>No</parry>
+				<block>+0</block>
+				<default>
+					<type>Block</type>
+					<name>Cloak</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<ranged_weapon>
+				<damage>Special</damage>
+				<strength>8</strength>
+				<usage>Thrown</usage>
+				<accuracy>+1</accuracy>
+				<range>2</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>T(1)</shots>
+				<bulk>-6</bulk>
+				<default>
+					<type>Skill</type>
+					<name>Cloak</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Net</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Clothing</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>block</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Cloth Cap</description>
+			<tech_level>1</tech_level>
+			<legality_class>-</legality_class>
+			<value>5</value>
+			<reference>B284</reference>
+			<notes>Effectively the cloak</notes>
+			<categories>
+				<category>Headgear</category>
+			</categories>
+			<dr_bonus>
+				<location>skull</location>
+				<amount>1</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Axe</description>
+			<tech_level>0</tech_level>
+			<legality_class>4</legality_class>
+			<value>50</value>
+			<weight>4 lb</weight>
+			<reference>B271</reference>
+			<melee_weapon>
+				<damage>sw+2 cut</damage>
+				<strength>11</strength>
+				<usage>Swung</usage>
+				<reach>1</reach>
+				<parry>0U</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Axe/Mace</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Flail</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Two-Handed Axe/Mace</name>
+					<modifier>-3</modifier>
+				</default>
+			</melee_weapon>
+			<categories>
+				<category>Melee Weapon</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Rope, 3/8", 20 yards</description>
+			<tech_level>0</tech_level>
+			<legality_class>4</legality_class>
+			<value>10</value>
+			<weight>3 lb</weight>
+			<reference>B288</reference>
+			<notes>Supports 300 lbs.</notes>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Puffer Pistol</description>
+			<tech_level>4</tech_level>
+			<legality_class>3</legality_class>
+			<value>200</value>
+			<weight>2 lb</weight>
+			<ranged_weapon>
+				<damage>2d-1 pi+</damage>
+				<strength>9</strength>
+				<accuracy>1</accuracy>
+				<range>50/550</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>1(20)</shots>
+				<bulk>-3</bulk>
+				<recoil>3</recoil>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Pistol</specialization>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Rifle</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Shotgun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Machine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Submachine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Musket</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Grenade Launcher</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Gyroc</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Anti-Armor Weapon</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Gun!</name>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<notes>Malf. 14, -2 rain, -4 heavy rain, -6 monsoon</notes>
+			<categories>
+				<category>Missile Weapon</category>
+			</categories>
+		</equipment>
+	</equipment_list>
+	<print_settings units="in">
+		<orientation>portrait</orientation>
+		<width>8.5</width>
+		<height>11</height>
+		<top_margin>0.5</top_margin>
+		<left_margin>0.5</left_margin>
+		<bottom_margin>0.5</bottom_margin>
+		<right_margin>0.5</right_margin>
+		<ink_chromaticity>monochrome</ink_chromaticity>
+		<sides>single</sides>
+		<quality>normal</quality>
+	</print_settings>
+</character>
