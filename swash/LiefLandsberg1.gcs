@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="gry3odwa:12rnxwv5xsqxq" version="2">
 	<created_date>Aug 29, 2011</created_date>
-	<modified_date>Aug 16, 2014 1:22 PM</modified_date>
+	<modified_date>Feb 3, 2015 7:14 PM</modified_date>
 	<profile>
 		<player_name>Dan</player_name>
 		<campaign>Swashbuckling Araterre</campaign>
@@ -1724,6 +1724,140 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 	</advantage_list>
 	<skill_list>
 		<skill version="2">
+			<name>Acrobatics</name>
+			<difficulty>DX/H</difficulty>
+			<points>1</points>
+			<reference>B174</reference>
+			<notes>III</notes>
+			<categories>
+				<category>Athletic</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Acting</name>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B174</reference>
+			<notes>II</notes>
+			<categories>
+				<category>Social</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Performance</name>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Public Speaking</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Animal Handling</name>
+			<specialization>Hungus</specialization>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B175</reference>
+			<categories>
+				<category>Animal</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Anthropology</name>
+			<specialization>Human</specialization>
+			<difficulty>IQ/H</difficulty>
+			<points>2</points>
+			<reference>B175</reference>
+			<categories>
+				<category>Social Sciences/Humanities</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Paleontology</name>
+				<specialization>Paleoanthropology</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Sociology</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Archaeology</name>
+			<difficulty>IQ/H</difficulty>
+			<points>5</points>
+			<reference>B176</reference>
+			<notes>III</notes>
+			<categories>
+				<category>Social Sciences/Humanities</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Area Knowledge</name>
+			<specialization>Araterre</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B176</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Geography</name>
+				<specialization>Araterre</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Area Knowledge</name>
+			<specialization>Free Haven</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B176</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Geography</name>
+				<specialization>Free Haven</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Area Knowledge</name>
 			<specialization>New Port</specialization>
 			<difficulty>IQ/E</difficulty>
@@ -1742,6 +1876,27 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 				<type>Skill</type>
 				<name>Geography</name>
 				<specialization>New Port</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Area Knowledge</name>
+			<specialization>Ring Islands</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>2</points>
+			<reference>B176</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Geography</name>
+				<specialization>Ring Islands</specialization>
 				<modifier>-3</modifier>
 			</default>
 		</skill>
@@ -1769,6 +1924,93 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Armoury</name>
+			<specialization>Small Arms</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B178</reference>
+			<categories>
+				<category>Military</category>
+				<category>Repair/Maintainance</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Small Arms</specialization>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Beam Weapons</name>
+			<specialization>Pistol</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B179</reference>
+			<notes>I</notes>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Boating</name>
+			<specialization>Unpowered</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B180</reference>
+			<categories>
+				<category>Vehicle</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Boating</name>
+				<specialization>Large Powerboat</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Boating</name>
+				<specialization>Motorboat</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Boating</name>
+				<specialization>Sailboat</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Brawling</name>
 			<difficulty>DX/E</difficulty>
 			<points>0</points>
@@ -1784,6 +2026,46 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 				<level compare="at least">2</level>
 				<amount per_level="yes">1</amount>
 			</weapon_bonus>
+		</skill>
+		<skill version="2">
+			<name>Broadsword</name>
+			<difficulty>DX/A</difficulty>
+			<points>5</points>
+			<reference>B208</reference>
+			<notes>III</notes>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Rapier</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Saber</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Two-Handed Sword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
 		</skill>
 		<skill version="2">
 			<name>Camouflage</name>
@@ -1806,6 +2088,21 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Carousing</name>
+			<difficulty>HT/E</difficulty>
+			<points>2</points>
+			<reference>B183</reference>
+			<notes>III</notes>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>HT</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Carpentry</name>
 			<difficulty>IQ/E</difficulty>
 			<points>0</points>
@@ -1817,6 +2114,23 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<default>
 				<type>IQ</type>
 				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Climbing</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>3</points>
+			<reference>B183</reference>
+			<notes>II</notes>
+			<categories>
+				<category>Athletic</category>
+				<category>Criminal/Street</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -1855,6 +2169,132 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 				<modifier>-4</modifier>
 			</default>
 			<notes>+2 damage; target must roll Will-shock to hold onto something if hit arm/hand; III</notes>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Whip</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<skill version="2">
+			<name>Current Affairs</name>
+			<specialization>Headline News</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>3</points>
+			<reference>B186</reference>
+			<notes>III</notes>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Research</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Current Affairs</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Current Affairs</name>
+			<specialization>People</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B186</reference>
+			<notes>II</notes>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Research</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Current Affairs</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Current Affairs</name>
+			<specialization>Science &amp; Technology</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B186</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Research</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Current Affairs</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Diplomacy</name>
+			<difficulty>IQ/H</difficulty>
+			<points>5</points>
+			<reference>B187</reference>
+			<categories>
+				<category>Business</category>
+				<category>Police</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Politics</name>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<technique version="2" limit="5">
+			<name>Disarming</name>
+			<difficulty>H</difficulty>
+			<points>3</points>
+			<reference>B230, MA70</reference>
+			<default>
+				<type>Skill</type>
+				<name>Whip</name>
+				<modifier>0</modifier>
+			</default>
+			<notes>-5 to C, -4 against reach 1, -3 to reach 2+; +2 to quick contest; II</notes>
 			<categories>
 				<category>Combat/Weapon</category>
 				<category>Melee Combat</category>
@@ -1931,6 +2371,95 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Engineer</name>
+			<specialization>Combat</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B190</reference>
+			<categories>
+				<category>Design/Invention</category>
+				<category>Engineer</category>
+			</categories>
+			<prereq_list all="yes">
+				<when_tl compare="at least">5</when_tl>
+				<skill_prereq has="yes">
+					<name compare="is">mathematics</name>
+					<specialization compare="is">applied</specialization>
+				</skill_prereq>
+			</prereq_list>
+			<default>
+				<type>Skill</type>
+				<name>Explosives</name>
+				<specialization>Demolition</specialization>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<technique version="2" limit="0">
+			<name>Entangle</name>
+			<difficulty>H</difficulty>
+			<points>1</points>
+			<reference>MA71</reference>
+			<default>
+				<type>Skill</type>
+				<name>Whip</name>
+				<modifier>-4</modifier>
+			</default>
+			<notes>QC of ST on hit; II</notes>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Whip</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
+		<skill version="2">
+			<name>Explosives</name>
+			<specialization>Demolition</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B194</reference>
+			<notes>III</notes>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Military</category>
+				<category>Technical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Combat</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Mining</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Explosives</name>
+				<specialization>Underwater Demolition</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Explosives</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Farming</name>
 			<tech_level>4</tech_level>
 			<difficulty>DX/A</difficulty>
@@ -1953,6 +2482,99 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 				<type>Skill</type>
 				<name>Gardening</name>
 				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Fast-Draw</name>
+			<specialization>Pistol</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>2</points>
+			<reference>B194</reference>
+			<notes>I</notes>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+		</skill>
+		<skill version="2">
+			<name>Fast-Draw</name>
+			<specialization>Sword</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>3</points>
+			<reference>B194</reference>
+			<notes>I</notes>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+		</skill>
+		<skill version="2">
+			<name>Fast-Talk</name>
+			<difficulty>IQ/A</difficulty>
+			<points>4</points>
+			<reference>B195</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Social</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Acting</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>First Aid</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>3</points>
+			<reference>B195</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Medical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Esoteric Medicine</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Forensics</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B196</reference>
+			<categories>
+				<category>Police</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Criminology</name>
+				<modifier>-4</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -1990,6 +2612,20 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 				<type>Skill</type>
 				<name>Farming</name>
 				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Garrote</name>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B197</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
 			</default>
 		</skill>
 		<technique version="2" limit="0">
@@ -2033,6 +2669,28 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			</prereq_list>
 		</technique>
 		<skill version="2">
+			<name>Gunner</name>
+			<specialization>Cannon</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B198</reference>
+			<notes>I</notes>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gunner</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Guns</name>
 			<specialization>Light Anti-Armor Weapon</specialization>
 			<tech_level>4</tech_level>
@@ -2052,6 +2710,142 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 				<type>Skill</type>
 				<name>Guns</name>
 				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Guns</name>
+			<specialization>Musket</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>DX/E</difficulty>
+			<points>3</points>
+			<reference>B198</reference>
+			<notes>I</notes>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Guns</name>
+			<specialization>Pistol</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>DX/E</difficulty>
+			<points>5</points>
+			<reference>B198</reference>
+			<notes>III</notes>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<specialization>Pistol</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun</specialization>
+				<modifier>-2</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -2117,6 +2911,81 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 				<name>Guns</name>
 				<specialization>Shotgun</specialization>
 				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Hiking</name>
+			<difficulty>HT/A</difficulty>
+			<points>2</points>
+			<reference>B200</reference>
+			<categories>
+				<category>Athletic</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>HT</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>History</name>
+			<specialization>Banestorm Victims</specialization>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B200</reference>
+			<categories>
+				<category>Social Sciences/Humanities</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Interrogation</name>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B202</reference>
+			<notes>I</notes>
+			<categories>
+				<category>Military</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Intimidation</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Psychology</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Intimidation</name>
+			<difficulty>Will/A</difficulty>
+			<points>2</points>
+			<reference>B202</reference>
+			<notes>I</notes>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Acting</name>
+				<modifier>-3</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -2236,6 +3105,21 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Leadership</name>
+			<difficulty>IQ/A</difficulty>
+			<points>5</points>
+			<reference>B204</reference>
+			<notes>I</notes>
+			<categories>
+				<category>Military</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Meditation</name>
 			<difficulty>Will/H</difficulty>
 			<points>0</points>
@@ -2251,6 +3135,31 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<default>
 				<type>Skill</type>
 				<name>Autohypnosis</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Merchant</name>
+			<difficulty>IQ/A</difficulty>
+			<points>3</points>
+			<reference>B209</reference>
+			<notes>III</notes>
+			<categories>
+				<category>Business</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Finance</name>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Market Analysis</name>
 				<modifier>-4</modifier>
 			</default>
 		</skill>
@@ -2279,6 +3188,82 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Navigation</name>
+			<specialization>Land</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B211</reference>
+			<notes>I</notes>
+			<categories>
+				<category>Outdoor/Exploration</category>
+				<category>Technical</category>
+				<category>Vehicle</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Cartography</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Mathematics</name>
+				<specialization>Surveying</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Navigation</name>
+				<specialization>Air</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Navigation</name>
+				<specialization>Sea</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Navigation</name>
+			<specialization>Sea</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B211</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+				<category>Technical</category>
+				<category>Vehicle</category>
+			</categories>
+			<default>
+				<type>Skill</type>
+				<name>Astronomy</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Seamanship</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Navigation</name>
+				<specialization>Air</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Navigation</name>
+				<specialization>Land</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Physician</name>
 			<tech_level>4</tech_level>
 			<difficulty>IQ/H</difficulty>
@@ -2304,6 +3289,80 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Public Speaking</name>
+			<difficulty>IQ/A</difficulty>
+			<points>8</points>
+			<reference>B216</reference>
+			<notes>I</notes>
+			<categories>
+				<category>Business</category>
+				<category>Scholarly</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Acting</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Performance</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Politics</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Research</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B217</reference>
+			<categories>
+				<category>Scholarly</category>
+				<category>Spy</category>
+			</categories>
+			<prereq_list all="yes">
+				<prereq_list all="yes">
+					<when_tl compare="at least">8</when_tl>
+					<skill_prereq has="yes">
+						<name compare="is">Computer Operation</name>
+						<specialization compare="is anything"></specialization>
+					</skill_prereq>
+				</prereq_list>
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="starts with">Language</name>
+						<notes compare="contains">Written (Native</notes>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="starts with">Language</name>
+						<notes compare="contains">Written (Accented)</notes>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="starts with">Language</name>
+						<notes compare="contains">Written (Broken)</notes>
+					</advantage_prereq>
+				</prereq_list>
+			</prereq_list>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Writing</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Running</name>
 			<difficulty>HT/A</difficulty>
 			<points>0</points>
@@ -2314,6 +3373,191 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			</categories>
 			<default>
 				<type>HT</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Saber</name>
+			<difficulty>DX/A</difficulty>
+			<points>5</points>
+			<reference>B208</reference>
+			<notes>I</notes>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Broadsword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortswort</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Rapier</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Smallsword</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Savoir-Faire</name>
+			<specialization>Servant</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B218</reference>
+			<notes>I</notes>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Savoir-Faire</name>
+				<specialization>High Society</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Scrounging</name>
+			<difficulty>Per/E</difficulty>
+			<points>4</points>
+			<reference>B218</reference>
+			<notes>II</notes>
+			<categories>
+				<category>Criminal/Street</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Seamanship</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B185</reference>
+			<notes>II</notes>
+			<categories>
+				<category>Vehicle</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Sex Appeal</name>
+			<difficulty>HT/A</difficulty>
+			<points>1</points>
+			<reference>B219</reference>
+			<categories>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>HT</type>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Shiphandling</name>
+			<specialization>Ship</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>3</points>
+			<reference>B220</reference>
+			<notes>I</notes>
+			<categories>
+				<category>Vehicle</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">seamanship</name>
+					<specialization compare="is"></specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">navigation</name>
+					<specialization compare="is">sea</specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">leadership</name>
+					<specialization compare="is"></specialization>
+				</skill_prereq>
+			</prereq_list>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Seamanship</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Boating</name>
+				<specialization>Large Powerboat</specialization>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Boating</name>
+				<specialization>Sailboat</specialization>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Singing</name>
+			<difficulty>HT/E</difficulty>
+			<points>1</points>
+			<reference>B220</reference>
+			<categories>
+				<category>Arts/Entertainment</category>
+			</categories>
+			<default>
+				<type>HT</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Stealth</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>4</points>
+			<reference>B222</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>DX</type>
 				<modifier>-5</modifier>
 			</default>
 		</skill>
@@ -2375,6 +3619,21 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 				<type>Skill</type>
 				<name>Strategy</name>
 				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Streetwise</name>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B223</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -2507,589 +3766,65 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 				<modifier>-3</modifier>
 			</default>
 		</skill>
-		<technique version="2" limit="-1">
-			<name>Targeted Attack (Arm)</name>
-			<difficulty>A</difficulty>
-			<points>0</points>
-			<default>
-				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-2</modifier>
-			</default>
-			<notes>II</notes>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-			<prereq_list all="yes">
-				<skill_prereq has="yes">
-					<name compare="is">Saber</name>
-					<specialization compare="is anything"></specialization>
-				</skill_prereq>
-			</prereq_list>
-		</technique>
 		<skill version="2">
-			<name>Traps</name>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>0</points>
-			<reference>B226</reference>
-			<notes>I</notes>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Military</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Lockpicking</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Wrestling</name>
-			<difficulty>DX/A</difficulty>
-			<points>0</points>
-			<reference>B228</reference>
-			<notes>III</notes>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Acrobatics</name>
-			<difficulty>DX/H</difficulty>
-			<points>1</points>
-			<reference>B174</reference>
-			<notes>III</notes>
-			<categories>
-				<category>Athletic</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Animal Handling</name>
-			<specialization>Hungus</specialization>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B175</reference>
-			<categories>
-				<category>Animal</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Area Knowledge</name>
-			<specialization>Araterre</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B176</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Geography</name>
-				<specialization>Araterre</specialization>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Area Knowledge</name>
-			<specialization>Free Haven</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B176</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Geography</name>
-				<specialization>Free Haven</specialization>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Beam Weapons</name>
-			<specialization>Pistol</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B179</reference>
-			<notes>I</notes>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Beam Weapons</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Pistol</specialization>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Boating</name>
-			<specialization>Unpowered</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>DX/A</difficulty>
-			<points>1</points>
-			<reference>B180</reference>
-			<categories>
-				<category>Vehicle</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Boating</name>
-				<specialization>Large Powerboat</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Boating</name>
-				<specialization>Motorboat</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Boating</name>
-				<specialization>Sailboat</specialization>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Current Affairs</name>
-			<specialization>People</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B186</reference>
-			<notes>II</notes>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Research</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Current Affairs</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Current Affairs</name>
-			<specialization>Science &amp; Technology</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B186</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Research</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Current Affairs</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Engineer</name>
-			<specialization>Combat</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B190</reference>
-			<categories>
-				<category>Design/Invention</category>
-				<category>Engineer</category>
-			</categories>
-			<prereq_list all="yes">
-				<when_tl compare="at least">5</when_tl>
-				<skill_prereq has="yes">
-					<name compare="is">mathematics</name>
-					<specialization compare="is">applied</specialization>
-				</skill_prereq>
-			</prereq_list>
-			<default>
-				<type>Skill</type>
-				<name>Explosives</name>
-				<specialization>Demolition</specialization>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<technique version="2" limit="0">
-			<name>Entangle</name>
-			<difficulty>H</difficulty>
-			<points>1</points>
-			<reference>MA71</reference>
-			<default>
-				<type>Skill</type>
-				<name>Whip</name>
-				<modifier>-4</modifier>
-			</default>
-			<notes>QC of ST on hit; II</notes>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-			<prereq_list all="yes">
-				<skill_prereq has="yes">
-					<name compare="is">Whip</name>
-					<specialization compare="is anything"></specialization>
-				</skill_prereq>
-			</prereq_list>
-		</technique>
-		<skill version="2">
-			<name>Explosives</name>
-			<specialization>Demolition</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B194</reference>
-			<notes>III</notes>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Military</category>
-				<category>Technical</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Combat</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Mining</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Explosives</name>
-				<specialization>Underwater Demolition</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Explosives</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Forensics</name>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B196</reference>
-			<categories>
-				<category>Police</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Criminology</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Garrote</name>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B197</reference>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Gunner</name>
-			<specialization>Cannon</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>1</points>
-			<reference>B198</reference>
-			<notes>I</notes>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Gunner</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>History</name>
-			<specialization>Banestorm Victims</specialization>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>B200</reference>
-			<categories>
-				<category>Social Sciences/Humanities</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Interrogation</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B202</reference>
-			<notes>I</notes>
-			<categories>
-				<category>Military</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Intimidation</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Psychology</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Navigation</name>
-			<specialization>Sea</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B211</reference>
-			<categories>
-				<category>Outdoor/Exploration</category>
-				<category>Technical</category>
-				<category>Vehicle</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Astronomy</name>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Seamanship</name>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Navigation</name>
-				<specialization>Air</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Navigation</name>
-				<specialization>Land</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Research</name>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
-			<reference>B217</reference>
-			<categories>
-				<category>Scholarly</category>
-				<category>Spy</category>
-			</categories>
-			<prereq_list all="yes">
-				<prereq_list all="yes">
-					<when_tl compare="at least">8</when_tl>
-					<skill_prereq has="yes">
-						<name compare="is">Computer Operation</name>
-						<specialization compare="is anything"></specialization>
-					</skill_prereq>
-				</prereq_list>
-				<prereq_list all="no">
-					<advantage_prereq has="yes">
-						<name compare="starts with">Language</name>
-						<notes compare="contains">Written (Native</notes>
-					</advantage_prereq>
-					<advantage_prereq has="yes">
-						<name compare="starts with">Language</name>
-						<notes compare="contains">Written (Accented)</notes>
-					</advantage_prereq>
-					<advantage_prereq has="yes">
-						<name compare="starts with">Language</name>
-						<notes compare="contains">Written (Broken)</notes>
-					</advantage_prereq>
-				</prereq_list>
-			</prereq_list>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Writing</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Savoir-Faire</name>
-			<specialization>Servant</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B218</reference>
-			<notes>I</notes>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Savoir-Faire</name>
-				<specialization>High Society</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Seamanship</name>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B185</reference>
-			<notes>II</notes>
-			<categories>
-				<category>Vehicle</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Sex Appeal</name>
-			<difficulty>HT/A</difficulty>
-			<points>1</points>
-			<reference>B219</reference>
-			<categories>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>HT</type>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Singing</name>
-			<difficulty>HT/E</difficulty>
-			<points>1</points>
-			<reference>B220</reference>
-			<categories>
-				<category>Arts/Entertainment</category>
-			</categories>
-			<default>
-				<type>HT</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Streetwise</name>
-			<difficulty>IQ/A</difficulty>
-			<points>1</points>
+			<name>Survival</name>
+			<specialization>Jungle</specialization>
+			<difficulty>Per/A</difficulty>
+			<points>2</points>
 			<reference>B223</reference>
 			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Social</category>
+				<category>Outdoor/Exploration</category>
 			</categories>
 			<default>
-				<type>IQ</type>
+				<type>Per</type>
 				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Arctic</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Desert</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Mountain</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Plains</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Swampland</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Island/Beach</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Woodlands</specialization>
+				<modifier>-3</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -3154,6 +3889,64 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 				<modifier>-3</modifier>
 			</default>
 		</skill>
+		<skill version="2">
+			<name>Swimming</name>
+			<encumbrance_penalty_multiplier>2</encumbrance_penalty_multiplier>
+			<difficulty>HT/E</difficulty>
+			<points>2</points>
+			<reference>B224</reference>
+			<notes>II</notes>
+			<categories>
+				<category>Athletic</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>HT</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Tactics</name>
+			<difficulty>IQ/H</difficulty>
+			<points>4</points>
+			<reference>B224</reference>
+			<notes>II</notes>
+			<categories>
+				<category>Military</category>
+				<category>Police</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Strategy</name>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<technique version="2" limit="-1">
+			<name>Targeted Attack (Arm)</name>
+			<difficulty>A</difficulty>
+			<points>0</points>
+			<default>
+				<type>Skill</type>
+				<name>Saber</name>
+				<modifier>-2</modifier>
+			</default>
+			<notes>II</notes>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+				<category>Technique</category>
+			</categories>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="is">Saber</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</technique>
 		<technique version="2" limit="-1">
 			<name>Targeted Attack (Broadsword to Heart)</name>
 			<difficulty>H</difficulty>
@@ -3192,298 +3985,6 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			</default>
 		</skill>
 		<skill version="2">
-			<name>Tracking</name>
-			<difficulty>Per/A</difficulty>
-			<points>1</points>
-			<reference>B226</reference>
-			<notes>II</notes>
-			<categories>
-				<category>Outdoor/Exploration</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Naturalist</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Acting</name>
-			<difficulty>IQ/A</difficulty>
-			<points>2</points>
-			<reference>B174</reference>
-			<notes>II</notes>
-			<categories>
-				<category>Social</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Performance</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Public Speaking</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Anthropology</name>
-			<specialization>Human</specialization>
-			<difficulty>IQ/H</difficulty>
-			<points>2</points>
-			<reference>B175</reference>
-			<categories>
-				<category>Social Sciences/Humanities</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Paleontology</name>
-				<specialization>Paleoanthropology</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Sociology</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Area Knowledge</name>
-			<specialization>Ring Islands</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>2</points>
-			<reference>B176</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Geography</name>
-				<specialization>Ring Islands</specialization>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Armoury</name>
-			<specialization>Small Arms</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>2</points>
-			<reference>B178</reference>
-			<categories>
-				<category>Military</category>
-				<category>Repair/Maintainance</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Engineer</name>
-				<specialization>Small Arms</specialization>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Carousing</name>
-			<difficulty>HT/E</difficulty>
-			<points>2</points>
-			<reference>B183</reference>
-			<notes>III</notes>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>HT</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Fast-Draw</name>
-			<specialization>Pistol</specialization>
-			<difficulty>DX/E</difficulty>
-			<points>2</points>
-			<reference>B194</reference>
-			<notes>I</notes>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>Hiking</name>
-			<difficulty>HT/A</difficulty>
-			<points>2</points>
-			<reference>B200</reference>
-			<categories>
-				<category>Athletic</category>
-				<category>Outdoor/Exploration</category>
-			</categories>
-			<default>
-				<type>HT</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Intimidation</name>
-			<difficulty>Will/A</difficulty>
-			<points>2</points>
-			<reference>B202</reference>
-			<notes>I</notes>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Acting</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Navigation</name>
-			<specialization>Land</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/A</difficulty>
-			<points>2</points>
-			<reference>B211</reference>
-			<notes>I</notes>
-			<categories>
-				<category>Outdoor/Exploration</category>
-				<category>Technical</category>
-				<category>Vehicle</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Cartography</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Mathematics</name>
-				<specialization>Surveying</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Navigation</name>
-				<specialization>Air</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Navigation</name>
-				<specialization>Sea</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Survival</name>
-			<specialization>Jungle</specialization>
-			<difficulty>Per/A</difficulty>
-			<points>2</points>
-			<reference>B223</reference>
-			<categories>
-				<category>Outdoor/Exploration</category>
-			</categories>
-			<default>
-				<type>Per</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Naturalist</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Arctic</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Desert</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Mountain</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Plains</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Swampland</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Island/Beach</specialization>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Survival</name>
-				<specialization>Woodlands</specialization>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Swimming</name>
-			<encumbrance_penalty_multiplier>2</encumbrance_penalty_multiplier>
-			<difficulty>HT/E</difficulty>
-			<points>2</points>
-			<reference>B224</reference>
-			<notes>II</notes>
-			<categories>
-				<category>Athletic</category>
-				<category>Outdoor/Exploration</category>
-			</categories>
-			<default>
-				<type>HT</type>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
 			<name>Throwing</name>
 			<difficulty>DX/A</difficulty>
 			<points>2</points>
@@ -3504,555 +4005,43 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			</default>
 		</skill>
 		<skill version="2">
-			<name>Climbing</name>
-			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
-			<difficulty>DX/A</difficulty>
-			<points>3</points>
-			<reference>B183</reference>
+			<name>Tracking</name>
+			<difficulty>Per/A</difficulty>
+			<points>1</points>
+			<reference>B226</reference>
 			<notes>II</notes>
 			<categories>
-				<category>Athletic</category>
-				<category>Criminal/Street</category>
 				<category>Outdoor/Exploration</category>
 			</categories>
 			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Current Affairs</name>
-			<specialization>Headline News</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/E</difficulty>
-			<points>3</points>
-			<reference>B186</reference>
-			<notes>III</notes>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Research</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Current Affairs</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<technique version="2" limit="5">
-			<name>Disarming</name>
-			<difficulty>H</difficulty>
-			<points>3</points>
-			<reference>B230, MA70</reference>
-			<default>
-				<type>Skill</type>
-				<name>Whip</name>
-				<modifier>0</modifier>
-			</default>
-			<notes>-5 to C, -4 against reach 1, -3 to reach 2+; +2 to quick contest; II</notes>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-				<category>Technique</category>
-			</categories>
-			<prereq_list all="yes">
-				<skill_prereq has="yes">
-					<name compare="is">Whip</name>
-					<specialization compare="is anything"></specialization>
-				</skill_prereq>
-			</prereq_list>
-		</technique>
-		<skill version="2">
-			<name>Fast-Draw</name>
-			<specialization>Sword</specialization>
-			<difficulty>DX/E</difficulty>
-			<points>3</points>
-			<reference>B194</reference>
-			<notes>I</notes>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-		</skill>
-		<skill version="2">
-			<name>First Aid</name>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/E</difficulty>
-			<points>3</points>
-			<reference>B195</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Medical</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Esoteric Medicine</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Physician</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Veterinary</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Guns</name>
-			<specialization>Musket</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>3</points>
-			<reference>B198</reference>
-			<notes>I</notes>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Grenade Launcher</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Gyroc</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Anti-Armor Weapon</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Machine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Pistol</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Rifle</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Shotgun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Submachine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Merchant</name>
-			<difficulty>IQ/A</difficulty>
-			<points>3</points>
-			<reference>B209</reference>
-			<notes>III</notes>
-			<categories>
-				<category>Business</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Finance</name>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Market Analysis</name>
-				<modifier>-4</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Shiphandling</name>
-			<specialization>Ship</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>IQ/H</difficulty>
-			<points>3</points>
-			<reference>B220</reference>
-			<notes>I</notes>
-			<categories>
-				<category>Vehicle</category>
-			</categories>
-			<prereq_list all="yes">
-				<skill_prereq has="yes">
-					<name compare="is">seamanship</name>
-					<specialization compare="is"></specialization>
-				</skill_prereq>
-				<skill_prereq has="yes">
-					<name compare="is">navigation</name>
-					<specialization compare="is">sea</specialization>
-				</skill_prereq>
-				<skill_prereq has="yes">
-					<name compare="is">leadership</name>
-					<specialization compare="is"></specialization>
-				</skill_prereq>
-			</prereq_list>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Seamanship</name>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Boating</name>
-				<specialization>Large Powerboat</specialization>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Boating</name>
-				<specialization>Sailboat</specialization>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Fast-Talk</name>
-			<difficulty>IQ/A</difficulty>
-			<points>4</points>
-			<reference>B195</reference>
-			<categories>
-				<category>Criminal/Street</category>
-				<category>Social</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Acting</name>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Scrounging</name>
-			<difficulty>Per/E</difficulty>
-			<points>4</points>
-			<reference>B218</reference>
-			<notes>II</notes>
-			<categories>
-				<category>Criminal/Street</category>
-			</categories>
-			<default>
 				<type>Per</type>
-				<modifier>-4</modifier>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-5</modifier>
 			</default>
 		</skill>
 		<skill version="2">
-			<name>Stealth</name>
-			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
-			<difficulty>DX/A</difficulty>
-			<points>4</points>
-			<reference>B222</reference>
+			<name>Traps</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>0</points>
+			<reference>B226</reference>
+			<notes>I</notes>
 			<categories>
 				<category>Criminal/Street</category>
-				<category>Police</category>
-				<category>Spy</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Tactics</name>
-			<difficulty>IQ/H</difficulty>
-			<points>4</points>
-			<reference>B224</reference>
-			<notes>II</notes>
-			<categories>
 				<category>Military</category>
-				<category>Police</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Strategy</name>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Archaeology</name>
-			<difficulty>IQ/H</difficulty>
-			<points>5</points>
-			<reference>B176</reference>
-			<notes>III</notes>
-			<categories>
-				<category>Social Sciences/Humanities</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Broadsword</name>
-			<difficulty>DX/A</difficulty>
-			<points>5</points>
-			<reference>B208</reference>
-			<notes>III</notes>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Rapier</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Two-Handed Sword</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Diplomacy</name>
-			<difficulty>IQ/H</difficulty>
-			<points>5</points>
-			<reference>B187</reference>
-			<categories>
-				<category>Business</category>
-				<category>Police</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-6</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Politics</name>
-				<modifier>-6</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Guns</name>
-			<specialization>Pistol</specialization>
-			<tech_level>4</tech_level>
-			<difficulty>DX/E</difficulty>
-			<points>5</points>
-			<reference>B198</reference>
-			<notes>III</notes>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Ranged Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Grenade Launcher</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Gyroc</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Anti-Armor Weapon</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Machine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Musket</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Beam Weapons</name>
-				<specialization>Pistol</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Rifle</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Shotgun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Submachine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Leadership</name>
-			<difficulty>IQ/A</difficulty>
-			<points>5</points>
-			<reference>B204</reference>
-			<notes>I</notes>
-			<categories>
-				<category>Military</category>
-				<category>Social</category>
 			</categories>
 			<default>
 				<type>IQ</type>
 				<modifier>-5</modifier>
 			</default>
-		</skill>
-		<skill version="2">
-			<name>Saber</name>
-			<difficulty>DX/A</difficulty>
-			<points>5</points>
-			<reference>B208</reference>
-			<notes>I</notes>
-			<categories>
-				<category>Combat/Weapon</category>
-				<category>Melee Combat</category>
-			</categories>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
 			<default>
 				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortswort</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Main-Gauche</name>
+				<name>Lockpicking</name>
 				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Rapier</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-3</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Public Speaking</name>
-			<difficulty>IQ/A</difficulty>
-			<points>8</points>
-			<reference>B216</reference>
-			<notes>I</notes>
-			<categories>
-				<category>Business</category>
-				<category>Scholarly</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Acting</name>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Performance</name>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Politics</name>
-				<modifier>-5</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -4083,6 +4072,17 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 				<name>Monowire Whip</name>
 				<modifier>-3</modifier>
 			</default>
+		</skill>
+		<skill version="2">
+			<name>Wrestling</name>
+			<difficulty>DX/A</difficulty>
+			<points>0</points>
+			<reference>B228</reference>
+			<notes>III</notes>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
 		</skill>
 	</skill_list>
 	<equipment_list>
