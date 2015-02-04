@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="gry3odwa:12rnxwv5xsqxq" version="2">
 	<created_date>Aug 29, 2011</created_date>
-	<modified_date>Feb 3, 2015 7:14 PM</modified_date>
+	<modified_date>Feb 3, 2015 7:47 PM</modified_date>
 	<profile>
 		<player_name>Dan</player_name>
 		<campaign>Swashbuckling Araterre</campaign>
@@ -20,15 +20,15 @@
 		<race>Human</race>
 		<tech_level>4</tech_level>
 		<religion>Treasure Hunter</religion>
-		<notes>$12798
+		<notes>$18998
 Work for Lucy, net pay is $2400/month
 Rep: 1st Scout
 Friend of the Hungus
 
 0 chiron
-1 Battle Mead
+0 Battle Mead
 Slow Match
-1 Paper Bomb: 5d on target, div by 3 * dist to center
+0 Paper Bomb: 5d on target, div by 3 * dist to center
 	Roll vs HT to avoid hearing loss if hit
 
 0 LAW Rocket 10lbs, 7dx2 cr dir, 6d x2 sec, skill 10, HT148
@@ -38,7 +38,16 @@ Scope Add-on
 
 2oz wound mud
 
-Artificial spider silk, 100 yds, 1/8", holds 400lb (2 ppl), weighs 1 lb</notes>
+Artificial spider silk, 100 yds, 1/8", holds 400lb (2 ppl), weighs 1 lb
+
+0.2 rads permanent radiation damage
+
+sick (with +2 to Health Check)
+
+Should start aventuring academy in Steamy River
+"Dragonslayers' School"
+
+Armor Breaks: IIII</notes>
 		<!-- The portrait is a PNG file encoded as Base64. -->
 		<portrait>
 iVBORw0KGgoAAAANSUhEUgAAAJAAAADACAYAAADryOpPAACAAElEQVR42rS9Z1hU2b7tfb7ee87Z
@@ -1675,7 +1684,7 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 				</categories>
 			</advantage>
 			<advantage version="2">
-				<name>Like other cultures</name>
+				<name>"I'm a doctor."</name>
 				<type>Mental</type>
 				<base_points>-1</base_points>
 				<reference>B164</reference>
@@ -1726,9 +1735,9 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 		<skill version="2">
 			<name>Acrobatics</name>
 			<difficulty>DX/H</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B174</reference>
-			<notes>III</notes>
+			<notes>II</notes>
 			<categories>
 				<category>Athletic</category>
 			</categories>
@@ -1763,11 +1772,26 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Aerobatics</name>
+			<difficulty>DX/H</difficulty>
+			<points>0</points>
+			<reference>B174</reference>
+			<notes>II</notes>
+			<categories>
+				<category>Athletic</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Animal Handling</name>
 			<specialization>Hungus</specialization>
 			<difficulty>IQ/A</difficulty>
 			<points>1</points>
 			<reference>B175</reference>
+			<notes>I</notes>
 			<categories>
 				<category>Animal</category>
 			</categories>
@@ -1901,6 +1925,49 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Area Knowledge</name>
+			<specialization>Steamy Isle</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>0</points>
+			<reference>B176</reference>
+			<notes>II</notes>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Geography</name>
+				<specialization>Steamy Isle</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Area Knowledge</name>
+			<specialization>Steamy River</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>2</points>
+			<reference>B176</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Geography</name>
+				<specialization>Steamy River</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Armoury</name>
 			<specialization>Body Armor</specialization>
 			<tech_level>4</tech_level>
@@ -2030,9 +2097,8 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 		<skill version="2">
 			<name>Broadsword</name>
 			<difficulty>DX/A</difficulty>
-			<points>5</points>
+			<points>7</points>
 			<reference>B208</reference>
-			<notes>III</notes>
 			<categories>
 				<category>Combat/Weapon</category>
 				<category>Melee Combat</category>
@@ -2122,7 +2188,7 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<difficulty>DX/A</difficulty>
 			<points>3</points>
 			<reference>B183</reference>
-			<notes>II</notes>
+			<notes>III</notes>
 			<categories>
 				<category>Athletic</category>
 				<category>Criminal/Street</category>
@@ -2161,14 +2227,14 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 		<technique version="2" limit="0">
 			<name>Crack</name>
 			<difficulty>A</difficulty>
-			<points>0</points>
+			<points>1</points>
 			<reference>MA70</reference>
 			<default>
 				<type>Skill</type>
 				<name>Whip</name>
 				<modifier>-4</modifier>
 			</default>
-			<notes>+2 damage; target must roll Will-shock to hold onto something if hit arm/hand; III</notes>
+			<notes>+2 damage; target must roll Will-shock to hold onto something if hit arm/hand;</notes>
 			<categories>
 				<category>Combat/Weapon</category>
 				<category>Melee Combat</category>
@@ -2186,9 +2252,8 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<specialization>Headline News</specialization>
 			<tech_level>4</tech_level>
 			<difficulty>IQ/E</difficulty>
-			<points>3</points>
+			<points>4</points>
 			<reference>B186</reference>
-			<notes>III</notes>
 			<categories>
 				<category>Everyman</category>
 				<category>Knowledge</category>
@@ -2216,7 +2281,7 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<difficulty>IQ/E</difficulty>
 			<points>1</points>
 			<reference>B186</reference>
-			<notes>II</notes>
+			<notes>III</notes>
 			<categories>
 				<category>Everyman</category>
 				<category>Knowledge</category>
@@ -2265,10 +2330,41 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Diagnosis</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>0</points>
+			<reference>B187</reference>
+			<notes>I</notes>
+			<categories>
+				<category>Medical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>First Aid</name>
+				<modifier>-8</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Diplomacy</name>
 			<difficulty>IQ/H</difficulty>
 			<points>5</points>
 			<reference>B187</reference>
+			<notes>II</notes>
 			<categories>
 				<category>Business</category>
 				<category>Police</category>
@@ -2287,14 +2383,14 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 		<technique version="2" limit="5">
 			<name>Disarming</name>
 			<difficulty>H</difficulty>
-			<points>3</points>
+			<points>4</points>
 			<reference>B230, MA70</reference>
 			<default>
 				<type>Skill</type>
 				<name>Whip</name>
 				<modifier>0</modifier>
 			</default>
-			<notes>-5 to C, -4 against reach 1, -3 to reach 2+; +2 to quick contest; II</notes>
+			<notes>-5 to C, -4 against reach 1, -3 to reach 2+; +2 to quick contest;</notes>
 			<categories>
 				<category>Combat/Weapon</category>
 				<category>Melee Combat</category>
@@ -2423,9 +2519,8 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<specialization>Demolition</specialization>
 			<tech_level>4</tech_level>
 			<difficulty>IQ/A</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B194</reference>
-			<notes>III</notes>
 			<categories>
 				<category>Criminal/Street</category>
 				<category>Military</category>
@@ -2490,7 +2585,7 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<difficulty>DX/E</difficulty>
 			<points>2</points>
 			<reference>B194</reference>
-			<notes>I</notes>
+			<notes>II</notes>
 			<categories>
 				<category>Combat/Weapon</category>
 				<category>Ranged Combat</category>
@@ -2502,7 +2597,7 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<difficulty>DX/E</difficulty>
 			<points>3</points>
 			<reference>B194</reference>
-			<notes>I</notes>
+			<notes>III</notes>
 			<categories>
 				<category>Combat/Weapon</category>
 				<category>Melee Combat</category>
@@ -2619,6 +2714,7 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<difficulty>DX/E</difficulty>
 			<points>1</points>
 			<reference>B197</reference>
+			<notes>I</notes>
 			<categories>
 				<category>Combat/Weapon</category>
 				<category>Melee Combat</category>
@@ -2675,7 +2771,7 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<difficulty>DX/E</difficulty>
 			<points>1</points>
 			<reference>B198</reference>
-			<notes>I</notes>
+			<notes>II</notes>
 			<categories>
 				<category>Combat/Weapon</category>
 				<category>Ranged Combat</category>
@@ -2782,9 +2878,9 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<specialization>Pistol</specialization>
 			<tech_level>4</tech_level>
 			<difficulty>DX/E</difficulty>
-			<points>5</points>
+			<points>7</points>
 			<reference>B198</reference>
-			<notes>III</notes>
+			<notes>II</notes>
 			<categories>
 				<category>Combat/Weapon</category>
 				<category>Ranged Combat</category>
@@ -2914,10 +3010,27 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Hazardous Materials</name>
+			<specialization>Biological</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>0</points>
+			<reference>B199</reference>
+			<notes>II</notes>
+			<categories>
+				<category>Technical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Hiking</name>
 			<difficulty>HT/A</difficulty>
 			<points>2</points>
 			<reference>B200</reference>
+			<notes>I</notes>
 			<categories>
 				<category>Athletic</category>
 				<category>Outdoor/Exploration</category>
@@ -2993,7 +3106,7 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<difficulty>DX/E</difficulty>
 			<points>0</points>
 			<reference>B203</reference>
-			<notes>II</notes>
+			<notes>III</notes>
 			<categories>
 				<category>Athletic</category>
 			</categories>
@@ -3093,7 +3206,7 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<difficulty>IQ/H</difficulty>
 			<points>0</points>
 			<reference>B204</reference>
-			<notes>I</notes>
+			<notes>II</notes>
 			<categories>
 				<category>Business</category>
 				<category>Police</category>
@@ -3124,7 +3237,7 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<difficulty>Will/H</difficulty>
 			<points>0</points>
 			<reference>B207</reference>
-			<notes>I</notes>
+			<notes>III</notes>
 			<categories>
 				<category>Esoteric</category>
 			</categories>
@@ -3164,13 +3277,41 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Mimicry</name>
+			<specialization>Bird Calls</specialization>
+			<difficulty>IQ/H</difficulty>
+			<points>0</points>
+			<reference>B210</reference>
+			<notes>I</notes>
+			<categories>
+				<category>Animal</category>
+				<category>Arts/Entertainment</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Mimicry</name>
+				<specialization>Animal Sounds</specialization>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Naturalist</name>
 			<specialization>Earthlike</specialization>
 			<tech_level>4</tech_level>
 			<difficulty>IQ/H</difficulty>
 			<points>0</points>
 			<reference>B211</reference>
-			<notes>II</notes>
+			<notes>III</notes>
 			<categories>
 				<category>Animal</category>
 				<category>Natural Science</category>
@@ -3269,7 +3410,7 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<difficulty>IQ/H</difficulty>
 			<points>0</points>
 			<reference>B213</reference>
-			<notes>I</notes>
+			<notes>III</notes>
 			<categories>
 				<category>Medical</category>
 			</categories>
@@ -3422,7 +3563,7 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<difficulty>IQ/E</difficulty>
 			<points>1</points>
 			<reference>B218</reference>
-			<notes>I</notes>
+			<notes>III</notes>
 			<categories>
 				<category>Everyman</category>
 				<category>Knowledge</category>
@@ -3547,6 +3688,7 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<difficulty>DX/A</difficulty>
 			<points>4</points>
 			<reference>B222</reference>
+			<notes>II</notes>
 			<categories>
 				<category>Criminal/Street</category>
 				<category>Police</category>
@@ -3633,6 +3775,47 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			</categories>
 			<default>
 				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Surgery</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/VH</difficulty>
+			<points>0</points>
+			<reference>B223</reference>
+			<notes>I</notes>
+			<categories>
+				<category>Medical</category>
+			</categories>
+			<prereq_list all="no">
+				<skill_prereq has="yes">
+					<name compare="is">first aid</name>
+					<specialization compare="is"></specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">physician</name>
+					<specialization compare="is"></specialization>
+				</skill_prereq>
+			</prereq_list>
+			<default>
+				<type>Skill</type>
+				<name>First Aid</name>
+				<modifier>-12</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physiology</name>
+				<modifier>-8</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
 				<modifier>-5</modifier>
 			</default>
 		</skill>
@@ -3770,7 +3953,7 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<name>Survival</name>
 			<specialization>Jungle</specialization>
 			<difficulty>Per/A</difficulty>
-			<points>2</points>
+			<points>3</points>
 			<reference>B223</reference>
 			<categories>
 				<category>Outdoor/Exploration</category>
@@ -3908,9 +4091,9 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 		<skill version="2">
 			<name>Tactics</name>
 			<difficulty>IQ/H</difficulty>
-			<points>4</points>
+			<points>5</points>
 			<reference>B224</reference>
-			<notes>II</notes>
+			<notes>I</notes>
 			<categories>
 				<category>Military</category>
 				<category>Police</category>
@@ -3950,13 +4133,12 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 		<technique version="2" limit="-1">
 			<name>Targeted Attack (Broadsword to Heart)</name>
 			<difficulty>H</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<default>
 				<type>Skill</type>
 				<name>Broadsword</name>
 				<modifier>-3</modifier>
 			</default>
-			<notes>III</notes>
 			<categories>
 				<category>Combat/Weapon</category>
 				<category>Melee Combat</category>
@@ -3989,6 +4171,7 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<difficulty>DX/A</difficulty>
 			<points>2</points>
 			<reference>B226</reference>
+			<notes>I</notes>
 			<categories>
 				<category>Athletic</category>
 				<category>Combat/Weapon</category>
@@ -4009,7 +4192,7 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<difficulty>Per/A</difficulty>
 			<points>1</points>
 			<reference>B226</reference>
-			<notes>II</notes>
+			<notes>III</notes>
 			<categories>
 				<category>Outdoor/Exploration</category>
 			</categories>
@@ -4223,29 +4406,11 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 		</equipment>
 		<equipment version="3" state="equipped">
 			<quantity>1</quantity>
-			<description>First-Aid Kit</description>
+			<description>High Tech First-Aid Kit (, , swiss knife, necklace)</description>
 			<tech_level>0</tech_level>
 			<legality_class>4</legality_class>
 			<value>0</value>
-			<weight>2 lb</weight>
-			<reference>B276</reference>
-			<categories>
-				<category>Ammunition</category>
-				<category>Missile Weapon</category>
-			</categories>
-			<skill_bonus>
-				<name compare="is">First Aid</name>
-				<specialization compare="is anything"></specialization>
-				<amount>1</amount>
-			</skill_bonus>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>High Tech First-Aid Kit (, cylinder, swiss knife, necklace)</description>
-			<tech_level>0</tech_level>
-			<legality_class>4</legality_class>
-			<value>0</value>
-			<weight>2 lb</weight>
+			<weight>1 lb</weight>
 			<reference>B276</reference>
 			<categories>
 				<category>Ammunition</category>
@@ -4485,7 +4650,7 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 					<modifier>-3</modifier>
 				</default>
 			</melee_weapon>
-			<notes>Balanced, +1 to hit (included)</notes>
+			<notes>Balanced, +1 to hit (included); 2s ready</notes>
 			<categories>
 				<category>Melee Weapon</category>
 			</categories>
@@ -4676,15 +4841,15 @@ NE41Hv9tsPH/AEGL7U1MHu0vAAAAAElFTkSuQmCC
 			<tech_level>4</tech_level>
 			<legality_class>3</legality_class>
 			<value>300</value>
-			<weight>4 lb</weight>
+			<weight>3.9 lb</weight>
 			<reference>B279</reference>
 			<ranged_weapon>
 				<damage>2d+2 pi++</damage>
 				<strength>10&#8224;</strength>
 				<accuracy>3</accuracy>
-				<range>450/3000</range>
+				<range>65/670</range>
 				<rate_of_fire>1</rate_of_fire>
-				<shots>6+1(3i)</shots>
+				<shots>1(40)</shots>
 				<bulk>-4</bulk>
 				<recoil>2</recoil>
 				<default>
