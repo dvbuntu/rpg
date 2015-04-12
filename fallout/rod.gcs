@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="i8dlvewt:-10k4z4edlayvm" version="2">
 	<created_date>Apr 11, 2015</created_date>
-	<modified_date>Apr 11, 2015 10:02 PM</modified_date>
+	<modified_date>Apr 11, 2015 10:10 PM</modified_date>
 	<profile>
 		<player_name>vanboxel</player_name>
 		<name>Rodriguez</name>
@@ -1464,6 +1464,15 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 		<advantage_container version="2" open="yes">
 			<name>Advantages</name>
 			<advantage version="2">
+				<name>Accessory (Biomonitor)</name>
+				<type>Physical, Exotic</type>
+				<base_points>1</base_points>
+				<reference>B100</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
 				<name>Combat Reflexes</name>
 				<type>Mental</type>
 				<base_points>15</base_points>
@@ -2441,22 +2450,6 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 				<type>Skill</type>
 				<name>Politics</name>
 				<modifier>-5</modifier>
-			</default>
-		</skill>
-		<skill version="2">
-			<name>Savoir-Faire</name>
-			<specialization>Police</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B218</reference>
-			<categories>
-				<category>Knowledge</category>
-				<category>Police</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
 			</default>
 		</skill>
 		<skill version="2">
