@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="i8dlvewt:-10k4z4edlayvm" version="2">
 	<created_date>Apr 11, 2015</created_date>
-	<modified_date>Apr 11, 2015 10:10 PM</modified_date>
+	<modified_date>Apr 12, 2015 3:10 PM</modified_date>
 	<profile>
 		<player_name>vanboxel</player_name>
 		<name>Rodriguez</name>
@@ -2600,6 +2600,102 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			</categories>
 		</equipment>
 		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Small Radio</description>
+			<tech_level>8</tech_level>
+			<legality_class>4</legality_class>
+			<value>250</value>
+			<weight>0.5 lb</weight>
+			<reference>HT38</reference>
+			<notes>5-mile range. 3xXS/10hrs.</notes>
+			<categories>
+				<category>General Equipment</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Tactical Headset</description>
+			<tech_level>8</tech_level>
+			<legality_class>4</legality_class>
+			<value>200</value>
+			<weight>1 lb</weight>
+			<reference>HT39</reference>
+			<categories>
+				<category>General Equipment</category>
+			</categories>
+		</equipment>
+		<equipment_container version="3" open="yes" state="equipped">
+			<description>Backpack, Small</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>60</value>
+			<weight>3 lb</weight>
+			<reference>B288</reference>
+			<categories>
+				<category>Camping and Survival Gear</category>
+			</categories>
+			<prereq_list all="yes">
+				<contained_weight_prereq has="yes" compare="at most">40 lb</contained_weight_prereq>
+			</prereq_list>
+			<equipment version="3" state="equipped">
+				<quantity>2</quantity>
+				<description>Traveler's Rations</description>
+				<tech_level>0</tech_level>
+				<legality_class>4</legality_class>
+				<value>2</value>
+				<weight>0.5 lb</weight>
+				<reference>B288</reference>
+				<notes>One meal</notes>
+				<categories>
+					<category>Camping and Survival Gear</category>
+				</categories>
+			</equipment>
+			<equipment_container version="3" open="no" state="equipped">
+				<description>Canteen</description>
+				<tech_level>5</tech_level>
+				<legality_class>4</legality_class>
+				<value>10</value>
+				<weight>1 lb</weight>
+				<reference>B288</reference>
+				<categories>
+					<category>Camping and Survival Gear</category>
+				</categories>
+				<prereq_list all="yes">
+					<contained_weight_prereq has="yes" compare="at most">2 lb</contained_weight_prereq>
+				</prereq_list>
+			</equipment_container>
+			<equipment version="3" state="equipped">
+				<quantity>1</quantity>
+				<description>Personal Basics</description>
+				<tech_level>0</tech_level>
+				<legality_class>4</legality_class>
+				<value>5</value>
+				<weight>1 lb</weight>
+				<reference>B288</reference>
+				<notes>Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.</notes>
+				<categories>
+					<category>Camping and Survival Gear</category>
+				</categories>
+			</equipment>
+			<equipment_container version="3" open="yes" state="equipped">
+				<description>Drugs</description>
+				<legality_class>4</legality_class>
+				<value>0</value>
+				<equipment version="3" state="equipped">
+					<quantity>13</quantity>
+					<description>Antirad</description>
+					<tech_level>9</tech_level>
+					<legality_class>-</legality_class>
+					<value>150</value>
+					<reference>UT205</reference>
+					<categories>
+						<category>Biotech</category>
+						<category>Drug</category>
+					</categories>
+				</equipment>
+			</equipment_container>
+		</equipment_container>
+		<equipment version="3" state="equipped">
 			<quantity>73</quantity>
 			<description>7mmCL</description>
 			<tech_level>9</tech_level>
@@ -3151,7 +3247,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<notes>Bottle of 50; Purifies 1 quart each</notes>
 		</equipment>
 	</equipment_list>
-	<print_settings units="in">
+	<print_settings printer="HP LaserJet M1536dnf MFP (EEDEC5)" units="in">
 		<orientation>portrait</orientation>
 		<width>8.5</width>
 		<height>11</height>
@@ -3159,8 +3255,9 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 		<left_margin>0.5</left_margin>
 		<bottom_margin>0.5</bottom_margin>
 		<right_margin>0.5</right_margin>
-		<ink_chromaticity>monochrome</ink_chromaticity>
+		<ink_chromaticity>color</ink_chromaticity>
 		<sides>single</sides>
+		<number_up>1</number_up>
 		<quality>normal</quality>
 	</print_settings>
 </character>
