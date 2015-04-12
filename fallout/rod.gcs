@@ -1,0 +1,1705 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<character unique_id="i8dlvewt:-10k4z4edlayvm" version="2">
+	<created_date>Apr 11, 2015</created_date>
+	<modified_date>Apr 11, 2015 8:57 PM</modified_date>
+	<profile>
+		<player_name>vanboxel</player_name>
+		<name>Rodriguez</name>
+		<age>25</age>
+		<birthday>March 7</birthday>
+		<eyes>Blue</eyes>
+		<hair>Black, Wavy, Short</hair>
+		<skin>Light Brown</skin>
+		<handedness>Right</handedness>
+		<height>5' 11"</height>
+		<weight>168 lb</weight>
+		<SM>0</SM>
+		<gender>Male</gender>
+		<race>Human</race>
+		<tech_level>8</tech_level>
+	</profile>
+	<HP>0</HP>
+	<FP>0</FP>
+	<total_points>120</total_points>
+	<ST>12</ST>
+	<DX>11</DX>
+	<IQ>11</IQ>
+	<HT>11</HT>
+	<will>0</will>
+	<perception>0</perception>
+	<speed>0</speed>
+	<move>0</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage version="2">
+			<name>Berserk</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<cr>12</cr>
+			<modifier version="1" enabled="no">
+				<name>Battle Rage</name>
+				<cost type="percentage">50</cost>
+				<affects>total</affects>
+			</modifier>
+			<reference>B124</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Obsession</name>
+			<type>Physical</type>
+			<modifier version="1" enabled="no">
+				<name>Short term</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B146</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Long term</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B146</reference>
+			</modifier>
+			<reference>B146</reference>
+			<notes>Burn out Feral nests</notes>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Squeamish</name>
+			<type>Physical</type>
+			<base_points>-10</base_points>
+			<cr>12</cr>
+			<reference>B156</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Compulsive Gambling</name>
+			<type>Mental</type>
+			<base_points>-5</base_points>
+			<cr>12</cr>
+			<reference>B128</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Confused</name>
+			<type>Physical</type>
+			<base_points>-10</base_points>
+			<cr>15</cr>
+			<reference>B129</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Pyromania</name>
+			<type>Mental</type>
+			<base_points>-5</base_points>
+			<cr>12</cr>
+			<reference>B150</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Attentive</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B163</reference>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Broad-Minded</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B163</reference>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Congenial</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Naive</name>
+			<type>Physical</type>
+			<base_points>-1</base_points>
+			<reference>B165</reference>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Vow</name>
+			<type>Mental</type>
+			<levels>0</levels>
+			<base_points>-1</base_points>
+			<reference>B165</reference>
+			<notes>Put down my monster brother</notes>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Temperature Tolerance</name>
+			<type>Physical</type>
+			<levels>2</levels>
+			<points_per_level>1</points_per_level>
+			<reference>B93</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Lifting ST</name>
+			<type>Physical</type>
+			<levels>1</levels>
+			<points_per_level>3</points_per_level>
+			<modifier version="1" enabled="no">
+				<name>No Fine Manipulators</name>
+				<cost type="percentage">-40</cost>
+				<affects>total</affects>
+				<reference>B15</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Size</name>
+				<cost type="percentage">-10</cost>
+				<levels>1</levels>
+				<affects>total</affects>
+				<reference>B15</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Super-Effort</name>
+				<cost type="percentage">400</cost>
+				<affects>total</affects>
+				<reference>P58</reference>
+			</modifier>
+			<reference>B65</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<attribute_bonus>
+				<attribute limitation="lifting only">st</attribute>
+				<amount per_level="yes">1</amount>
+			</attribute_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Fit</name>
+			<type>Physical</type>
+			<base_points>5</base_points>
+			<reference>B55</reference>
+			<notes>+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)</notes>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Striking ST</name>
+			<type>Physical, Exotic</type>
+			<levels>1</levels>
+			<points_per_level>5</points_per_level>
+			<modifier version="1" enabled="no">
+				<name>No Fine Manipulators</name>
+				<cost type="percentage">-40</cost>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Size</name>
+				<cost type="percentage">-10</cost>
+				<levels>1</levels>
+				<affects>total</affects>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Super Effort</name>
+				<cost type="percentage">400</cost>
+				<affects>total</affects>
+				<reference>Sup24</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>One Attack Only</name>
+				<cost type="percentage">-60</cost>
+				<affects>total</affects>
+				<reference>P79</reference>
+				<notes>@Attack@</notes>
+			</modifier>
+			<reference>B88</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<attribute_bonus>
+				<attribute limitation="striking only">st</attribute>
+				<amount per_level="yes">1</amount>
+			</attribute_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Combat Reflexes</name>
+			<type>Mental</type>
+			<base_points>15</base_points>
+			<reference>B43</reference>
+			<notes>Never freeze; +6 on all IQ rolls to wake up or to recover from surprise or mental stun; Your side gets +1 to initiative rolls (+2 if you're the leader)</notes>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<skill_bonus>
+				<name compare="starts with">fast-draw</name>
+				<specialization compare="is anything"></specialization>
+				<amount>1</amount>
+			</skill_bonus>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>block</attribute>
+				<amount>1</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>fright check</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Daredevil</name>
+			<type>Mental</type>
+			<base_points>15</base_points>
+			<reference>B47</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Luck</name>
+			<type>Mental</type>
+			<base_points>15</base_points>
+			<modifier version="1" enabled="no">
+				<name>Active</name>
+				<cost type="percentage">-40</cost>
+				<affects>total</affects>
+				<reference>B66</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Aspected</name>
+				<cost type="percentage">-20</cost>
+				<affects>total</affects>
+				<reference>B66</reference>
+				<notes>@Aspect@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Defensive</name>
+				<cost type="percentage">-20</cost>
+				<affects>total</affects>
+				<reference>B66</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Wishing</name>
+				<cost type="percentage">100</cost>
+				<affects>total</affects>
+				<reference>P59</reference>
+			</modifier>
+			<reference>B66</reference>
+			<notes>Usable once per hour of play</notes>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<prereq_list all="yes">
+				<advantage_prereq has="no">
+					<name compare="starts with">Luck</name>
+					<notes compare="is anything"></notes>
+				</advantage_prereq>
+			</prereq_list>
+		</advantage>
+	</advantage_list>
+	<skill_list>
+		<skill version="2">
+			<name>Acting</name>
+			<difficulty>IQ/A</difficulty>
+			<points>0</points>
+			<reference>B174</reference>
+			<categories>
+				<category>Social</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Performance</name>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Public Speaking</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Area Knowledge</name>
+			<specialization>Vault 7</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>4</points>
+			<reference>B176</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Geography</name>
+				<specialization>Vault 7</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Body Language</name>
+			<difficulty>Per/A</difficulty>
+			<points>1</points>
+			<reference>B181</reference>
+			<categories>
+				<category>Police</category>
+				<category>Social</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>Skill</type>
+				<name>Detect Lies</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Psychology</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Brawling</name>
+			<difficulty>DX/E</difficulty>
+			<points>2</points>
+			<reference>B182</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<weapon_bonus>
+				<name compare="is">Brawling</name>
+				<specialization compare="is anything"></specialization>
+				<level compare="at least">2</level>
+				<amount per_level="yes">1</amount>
+			</weapon_bonus>
+		</skill>
+		<skill version="2">
+			<name>Carousing</name>
+			<difficulty>HT/E</difficulty>
+			<points>2</points>
+			<reference>B183</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>HT</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Climbing</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>0</points>
+			<reference>B183</reference>
+			<categories>
+				<category>Athletic</category>
+				<category>Criminal/Street</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Computer Operation</name>
+			<tech_level>8</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B184</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Scholarly</category>
+				<category>Technical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Current Affairs</name>
+			<specialization>Headline News</specialization>
+			<tech_level>8</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B186</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Research</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Current Affairs</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Current Affairs</name>
+			<specialization>People</specialization>
+			<tech_level>8</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B186</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Research</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Current Affairs</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Detect Lies</name>
+			<difficulty>Per/H</difficulty>
+			<points>1</points>
+			<reference>B187</reference>
+			<categories>
+				<category>Police</category>
+				<category>Social</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Body Language</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Psychology</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Diplomacy</name>
+			<difficulty>IQ/H</difficulty>
+			<points>2</points>
+			<reference>B187</reference>
+			<categories>
+				<category>Business</category>
+				<category>Police</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Politics</name>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Environment Suit</name>
+			<tech_level>8</tech_level>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B192</reference>
+			<categories>
+				<category>Technical</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Explosives</name>
+			<specialization>Demolition</specialization>
+			<tech_level>8</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B194</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Military</category>
+				<category>Technical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Combat</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Mining</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Explosives</name>
+				<specialization>Underwater Demolition</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Explosives</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Fast-Draw</name>
+			<specialization>Pistol</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B194</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+		</skill>
+		<skill version="2">
+			<name>Fast-Draw</name>
+			<specialization>Ammo</specialization>
+			<tech_level>8</tech_level>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B194</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+		</skill>
+		<skill version="2">
+			<name>Fast-Talk</name>
+			<difficulty>IQ/A</difficulty>
+			<points>0</points>
+			<reference>B195</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Social</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Acting</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>First Aid</name>
+			<tech_level>8</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>2</points>
+			<reference>B195</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Medical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Esoteric Medicine</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Forensics</name>
+			<tech_level>8</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B196</reference>
+			<categories>
+				<category>Police</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Criminology</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Gambling</name>
+			<difficulty>IQ/A</difficulty>
+			<points>4</points>
+			<reference>B197</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Mathematics</name>
+				<specialization>Statistics</specialization>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Guns</name>
+			<specialization>Pistol</specialization>
+			<tech_level>8</tech_level>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B198</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<specialization>Pistol</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Hiking</name>
+			<difficulty>HT/A</difficulty>
+			<points>0</points>
+			<reference>B200</reference>
+			<categories>
+				<category>Athletic</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>HT</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Intelligence Analysis</name>
+			<tech_level>8</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B201</reference>
+			<categories>
+				<category>Military</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Strategy</name>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Interrogation</name>
+			<difficulty>IQ/A</difficulty>
+			<points>0</points>
+			<reference>B202</reference>
+			<categories>
+				<category>Military</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Intimidation</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Psychology</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Intimidation</name>
+			<difficulty>Will/A</difficulty>
+			<points>1</points>
+			<reference>B202</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Acting</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Law</name>
+			<specialization>Criminal</specialization>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B204</reference>
+			<categories>
+				<category>Business</category>
+				<category>Police</category>
+				<category>Social Sciences/Humanities</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Leadership</name>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B204</reference>
+			<categories>
+				<category>Military</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Liquid Projector</name>
+			<specialization>Flamethrower</specialization>
+			<tech_level>8</tech_level>
+			<difficulty>DX/E</difficulty>
+			<points>0</points>
+			<reference>B205</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Liquid Projector</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Observation</name>
+			<difficulty>Per/A</difficulty>
+			<points>1</points>
+			<reference>B211</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Military</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shadowing</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Public Speaking</name>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B216</reference>
+			<categories>
+				<category>Business</category>
+				<category>Scholarly</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Acting</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Performance</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Politics</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Savoir-Faire</name>
+			<specialization>Police</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B218</reference>
+			<categories>
+				<category>Knowledge</category>
+				<category>Police</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Scrounging</name>
+			<difficulty>Per/E</difficulty>
+			<points>1</points>
+			<reference>B218</reference>
+			<categories>
+				<category>Criminal/Street</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Shadowing</name>
+			<difficulty>IQ/A</difficulty>
+			<points>0</points>
+			<reference>B219</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Observation</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Stealth</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Shield</name>
+			<specialization>Shield</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B220</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Shortsword</name>
+			<difficulty>DX/A</difficulty>
+			<points>2</points>
+			<reference>B209</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>Skill</type>
+				<name>Broadsword</name>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Jitte/Sai</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Saber</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Smallsword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Tonfa</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Stealth</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B222</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Wrestling</name>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B228</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+		</skill>
+	</skill_list>
+	<equipment_list>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>TASER M18</description>
+			<tech_level>8</tech_level>
+			<legality_class>4</legality_class>
+			<value>400</value>
+			<weight>1.1 lb</weight>
+			<reference>HT90</reference>
+			<ranged_weapon>
+				<damage>1d-3 pi-</damage>
+				<strength>7</strength>
+				<accuracy>0</accuracy>
+				<range>5</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>2(3i)</shots>
+				<bulk>-2</bulk>
+				<recoil>2</recoil>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Pistol</specialization>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Pistol</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Rifle</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Musket</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Shotgun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Machine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Submachine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Gun!</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Grenade Launcher</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Gyroc</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Anti-Armor Weapon</specialization>
+					<modifier>-4</modifier>
+				</default>
+			</ranged_weapon>
+			<ranged_weapon>
+				<damage>HT-5(0.5) aff</damage>
+				<usage>Follow-Up</usage>
+			</ranged_weapon>
+			<notes>Integral targeting laser. 8xXS/40sec.</notes>
+			<categories>
+				<category>Firearms</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Flashlight, Heavy</description>
+			<tech_level>6</tech_level>
+			<legality_class>4</legality_class>
+			<value>20</value>
+			<weight>1 lb</weight>
+			<reference>B288</reference>
+			<notes>30' beam, lasts 5 hours</notes>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Water Purification Tablets</description>
+			<tech_level>6</tech_level>
+			<legality_class>4</legality_class>
+			<value>5</value>
+			<weight>0.1 lb</weight>
+			<reference>B288</reference>
+			<notes>Bottle of 50; Purifies 1 quart each</notes>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>3</quantity>
+			<description>Cigarette Lighter</description>
+			<tech_level>6</tech_level>
+			<legality_class>4</legality_class>
+			<value>10</value>
+			<weight>0.01 lb</weight>
+			<reference>B288</reference>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Matches, Waterproof</description>
+			<tech_level>6</tech_level>
+			<legality_class>4</legality_class>
+			<value>1.5</value>
+			<weight>0.051 lb</weight>
+			<reference>B288</reference>
+			<notes>Box of 50</notes>
+		</equipment>
+		<equipment version="3" state="carried">
+			<quantity>1</quantity>
+			<description>Filter Mask</description>
+			<tech_level>9</tech_level>
+			<legality_class>4</legality_class>
+			<value>100</value>
+			<weight>3 lb</weight>
+			<reference>UT177</reference>
+			<categories>
+				<category>Armor</category>
+				<category>Defenses</category>
+			</categories>
+			<dr_bonus>
+				<location>eyes</location>
+				<amount>10</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>face</location>
+				<amount>10</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="carried">
+			<quantity>1</quantity>
+			<description>Protective Suit</description>
+			<tech_level>9</tech_level>
+			<legality_class>4</legality_class>
+			<value>50</value>
+			<weight>3 lb</weight>
+			<reference>UT178</reference>
+			<notes>Flexible.</notes>
+			<categories>
+				<category>Armor</category>
+				<category>Defenses</category>
+			</categories>
+			<dr_bonus>
+				<location>full body</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Riot Shield</description>
+			<tech_level>7</tech_level>
+			<legality_class>4</legality_class>
+			<value>60</value>
+			<weight>7.5 lb</weight>
+			<reference>HT72</reference>
+			<notes>DR7 HP40</notes>
+			<categories>
+				<category>Defenses</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>block</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Radiation Badge</description>
+			<tech_level>9</tech_level>
+			<legality_class>4</legality_class>
+			<value>100</value>
+			<reference>UT188</reference>
+			<notes>AA/1mo.</notes>
+			<categories>
+				<category>Defenses</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Light Body Armor (torso)</description>
+			<tech_level>6</tech_level>
+			<legality_class>4</legality_class>
+			<value>1000</value>
+			<weight>6 lb</weight>
+			<reference>HT66</reference>
+			<notes>Extra Light</notes>
+			<categories>
+				<category>Defenses</category>
+			</categories>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>5</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>5</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Riot Gear (legs)</description>
+			<tech_level>7</tech_level>
+			<legality_class>4</legality_class>
+			<value>100</value>
+			<weight>4 lb</weight>
+			<reference>HT68</reference>
+			<categories>
+				<category>Defenses</category>
+			</categories>
+			<dr_bonus>
+				<location>legs</location>
+				<amount>3</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Riot Gear (arms)</description>
+			<tech_level>7</tech_level>
+			<legality_class>4</legality_class>
+			<value>100</value>
+			<weight>2 lb</weight>
+			<reference>HT68</reference>
+			<categories>
+				<category>Defenses</category>
+			</categories>
+			<dr_bonus>
+				<location>arms</location>
+				<amount>3</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Auto Pistol, 9mm</description>
+			<tech_level>8</tech_level>
+			<legality_class>3</legality_class>
+			<value>800</value>
+			<weight>2 lb</weight>
+			<reference>B278</reference>
+			<ranged_weapon>
+				<damage>2d+2 pi</damage>
+				<strength>9</strength>
+				<accuracy>2</accuracy>
+				<range>150/1900</range>
+				<rate_of_fire>3</rate_of_fire>
+				<shots>18+1(3)</shots>
+				<bulk>-2</bulk>
+				<recoil>2</recoil>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Pistol</specialization>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Rifle</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Shotgun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Machine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Submachine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Musket</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Grenade Launcher</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Gyroc</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Anti-Armor Weapon</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Gun!</name>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Missile Weapon</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>73</quantity>
+			<description>7mmCL</description>
+			<tech_level>9</tech_level>
+			<legality_class>3</legality_class>
+			<value>0.54</value>
+			<weight>0.027 lb</weight>
+			<reference>UT139</reference>
+			<categories>
+				<category>Ammunition</category>
+				<category>Weaponry</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Riot Helmet + Visor</description>
+			<tech_level>8</tech_level>
+			<legality_class>4</legality_class>
+			<value>250</value>
+			<weight>3.5 lb</weight>
+			<reference>HT70</reference>
+			<categories>
+				<category>Defenses</category>
+			</categories>
+			<dr_bonus>
+				<location>skull</location>
+				<amount>6</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>face</location>
+				<amount>7</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>eyes</location>
+				<amount>1</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>100</quantity>
+			<description>1/8" Rope</description>
+			<tech_level>9</tech_level>
+			<legality_class>4</legality_class>
+			<value>0.2</value>
+			<weight>0.01 lb</weight>
+			<reference>UT81</reference>
+			<notes>Per yard. Supports 400lbs.</notes>
+			<categories>
+				<category>Tools and Construction Materials</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Fire Extinguisher Tube</description>
+			<tech_level>9</tech_level>
+			<legality_class>4</legality_class>
+			<value>10</value>
+			<weight>1 lb</weight>
+			<reference>UT87</reference>
+			<notes>4-second discharge. 2-yard range.</notes>
+			<categories>
+				<category>Expedition Gear</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Baton</description>
+			<tech_level>0</tech_level>
+			<legality_class>4</legality_class>
+			<value>20</value>
+			<weight>1 lb</weight>
+			<reference>B273</reference>
+			<melee_weapon>
+				<damage>sw cr</damage>
+				<strength>6</strength>
+				<usage>Swung</usage>
+				<reach>1</reach>
+				<parry>0</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shortsword</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Broadsword</name>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Force Sword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Jitte/Sai</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Knife</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Saber</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Smallsword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Tonfa</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Sword!</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<melee_weapon>
+				<damage>thr cr</damage>
+				<strength>6</strength>
+				<usage>Thrust</usage>
+				<reach>1</reach>
+				<parry>0</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shortsword</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Broadsword</name>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Force Sword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Jitte/Sai</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Knife</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Saber</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Smallsword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Tonfa</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Sword!</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<categories>
+				<category>Melee Weapon</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Fire-Starter Paste</description>
+			<tech_level>6</tech_level>
+			<legality_class>4</legality_class>
+			<value>5</value>
+			<weight>0.25 lb</weight>
+			<reference>HT58</reference>
+			<notes>Enough for 20 fires.</notes>
+			<categories>
+				<category>General Equipment</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Gasoline</description>
+			<tech_level>6</tech_level>
+			<legality_class>4</legality_class>
+			<value>1.5</value>
+			<weight>6 lb</weight>
+			<reference>HT16</reference>
+			<notes>"Quantity" represents gallons.</notes>
+			<categories>
+				<category>Power</category>
+			</categories>
+		</equipment>
+	</equipment_list>
+	<print_settings units="in">
+		<orientation>portrait</orientation>
+		<width>8.5</width>
+		<height>11</height>
+		<top_margin>0.5</top_margin>
+		<left_margin>0.5</left_margin>
+		<bottom_margin>0.5</bottom_margin>
+		<right_margin>0.5</right_margin>
+		<ink_chromaticity>monochrome</ink_chromaticity>
+		<sides>single</sides>
+		<quality>normal</quality>
+	</print_settings>
+</character>
