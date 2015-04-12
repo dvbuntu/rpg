@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="i12smm93:-9ovozce4lkdo" version="2">
 	<created_date>Oct 9, 2014</created_date>
-	<modified_date>Nov 12, 2014 10:06 PM</modified_date>
+	<modified_date>Mar 5, 2015 7:10 PM</modified_date>
 	<profile>
 		<player_name>max</player_name>
 		<name>Jaime Waskow</name>
@@ -20,8 +20,9 @@
 		<tech_level>4</tech_level>
 	</profile>
 	<HP>0</HP>
+	<current_hp>0</current_hp>
 	<FP>0</FP>
-	<total_points>136</total_points>
+	<total_points>176</total_points>
 	<ST>11</ST>
 	<DX>12</DX>
 	<IQ>10</IQ>
@@ -38,7 +39,7 @@
 			<name>Bad Temper</name>
 			<type>Mental</type>
 			<base_points>-10</base_points>
-			<cr>6</cr>
+			<cr>9</cr>
 			<reference>B124</reference>
 			<categories>
 				<category>Disadvantage</category>
@@ -106,14 +107,6 @@
 			</attribute_bonus>
 		</advantage>
 		<advantage version="2">
-			<name>Unreadable Omens</name>
-			<type>Physical</type>
-			<base_points>2</base_points>
-			<categories>
-				<category>Perk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
 			<name>Compulsive Carousing</name>
 			<type>Mental</type>
 			<base_points>-5</base_points>
@@ -121,35 +114,6 @@
 			<reference>B128</reference>
 			<categories>
 				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Dislikes Bugs</name>
-			<type>Mental</type>
-			<levels>0</levels>
-			<base_points>-1</base_points>
-			<reference>B164</reference>
-			<categories>
-				<category>Quirk</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Easy to Read</name>
-			<type>Mental</type>
-			<base_points>-10</base_points>
-			<reference>B134</reference>
-			<categories>
-				<category>Disadvantage</category>
-			</categories>
-		</advantage>
-		<advantage version="2">
-			<name>Fit</name>
-			<type>Physical</type>
-			<base_points>5</base_points>
-			<reference>B55</reference>
-			<notes>+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)</notes>
-			<categories>
-				<category>Advantage</category>
 			</categories>
 		</advantage>
 		<advantage version="2">
@@ -273,12 +237,102 @@
 			</dr_bonus>
 		</advantage>
 		<advantage version="2">
+			<name>Dislikes Bugs</name>
+			<type>Mental</type>
+			<levels>0</levels>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+			<categories>
+				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Easy to Read</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<reference>B134</reference>
+			<notes>6 towards buying off</notes>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Fit</name>
+			<type>Physical</type>
+			<base_points>5</base_points>
+			<reference>B55</reference>
+			<notes>+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)</notes>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Reputation</name>
+			<type>Social</type>
+			<levels>1</levels>
+			<points_per_level>1</points_per_level>
+			<modifier version="1" enabled="no">
+				<name>People Affected</name>
+				<cost type="multiplier">1</cost>
+				<reference>B27</reference>
+				<notes>Almost everyone</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>People Affected</name>
+				<cost type="multiplier">0.67</cost>
+				<reference>B27</reference>
+				<notes>Almost everyone except @large class of people@</notes>
+			</modifier>
+			<modifier version="1">
+				<name>People Affected</name>
+				<cost type="multiplier">0.5</cost>
+				<reference>B27</reference>
+				<notes>Caitniss</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>People Affected</name>
+				<cost type="multiplier">0.33</cost>
+				<reference>B27</reference>
+				<notes>@Small class of people@</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Recognized all the time</name>
+				<cost type="multiplier">1</cost>
+				<reference>B28</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Recognized sometimes</name>
+				<cost type="multiplier">0.5</cost>
+				<reference>B28</reference>
+				<notes>10-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Recognized occasionally</name>
+				<cost type="multiplier">0.33</cost>
+				<reference>B28</reference>
+				<notes>7-</notes>
+			</modifier>
+			<reference>B26</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
 			<name>Horrible Hangovers</name>
 			<type>Physical</type>
 			<base_points>-1</base_points>
 			<reference>B165</reference>
 			<categories>
 				<category>Quirk</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Injury Tolerance (Unbreakable Bones)</name>
+			<type>Physical</type>
+			<base_points>10</base_points>
+			<reference>P53</reference>
+			<categories>
+				<category>Advantage</category>
 			</categories>
 		</advantage>
 		<advantage version="2">
@@ -483,8 +537,40 @@
 				<category>Quirk</category>
 			</categories>
 		</advantage>
+		<advantage version="2">
+			<name>Unreadable Omens</name>
+			<type>Physical</type>
+			<base_points>2</base_points>
+			<categories>
+				<category>Perk</category>
+			</categories>
+		</advantage>
 	</advantage_list>
 	<skill_list>
+		<skill version="2">
+			<name>Acting</name>
+			<difficulty>IQ/A</difficulty>
+			<points>3</points>
+			<reference>B174</reference>
+			<categories>
+				<category>Social</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Performance</name>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Public Speaking</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
 		<technique version="2" limit="4">
 			<name>Arm Lock</name>
 			<difficulty>A</difficulty>
@@ -504,7 +590,7 @@
 		<skill version="2">
 			<name>Axe/Mace</name>
 			<difficulty>DX/A</difficulty>
-			<points>3</points>
+			<points>4</points>
 			<reference>B208</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -563,7 +649,7 @@
 		<skill version="2">
 			<name>Carousing</name>
 			<difficulty>HT/E</difficulty>
-			<points>2</points>
+			<points>4</points>
 			<reference>B183</reference>
 			<categories>
 				<category>Criminal/Street</category>
@@ -576,7 +662,7 @@
 		</skill>
 		<technique version="2" limit="0">
 			<name>Choke Hold</name>
-			<difficulty>H</difficulty>
+			<difficulty>A</difficulty>
 			<points>4</points>
 			<reference>B230, MA69</reference>
 			<default>
@@ -615,7 +701,7 @@
 		<skill version="2">
 			<name>Cooking</name>
 			<difficulty>IQ/A</difficulty>
-			<points>3</points>
+			<points>4</points>
 			<reference>B185</reference>
 			<categories>
 				<category>Everyman</category>
@@ -631,9 +717,23 @@
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Crossbow</name>
+			<difficulty>DX/E</difficulty>
+			<points>2</points>
+			<reference>B186</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Diplomacy</name>
 			<difficulty>IQ/H</difficulty>
-			<points>1</points>
+			<points>4</points>
 			<reference>B187</reference>
 			<categories>
 				<category>Business</category>
@@ -672,9 +772,29 @@
 				</skill_prereq>
 			</prereq_list>
 		</technique>
+		<skill version="2">
+			<name>Fast-Talk</name>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B195</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Social</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Acting</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
 		<technique version="2" limit="4">
 			<name>Feint</name>
-			<difficulty>H</difficulty>
+			<difficulty>A</difficulty>
 			<points>2</points>
 			<reference>B231</reference>
 			<default>
@@ -740,7 +860,7 @@
 		</skill>
 		<technique version="2" limit="0">
 			<name>Ground Fighting</name>
-			<difficulty>H</difficulty>
+			<difficulty>A</difficulty>
 			<points>4</points>
 			<reference>B231</reference>
 			<default>
@@ -785,7 +905,7 @@
 		<skill version="2">
 			<name>Intimidation</name>
 			<difficulty>Will/A</difficulty>
-			<points>5</points>
+			<points>6</points>
 			<reference>B202</reference>
 			<categories>
 				<category>Criminal/Street</category>
@@ -844,7 +964,7 @@
 		<skill version="2">
 			<name>Lifting</name>
 			<difficulty>HT/A</difficulty>
-			<points>2</points>
+			<points>3</points>
 			<reference>B205</reference>
 			<categories>
 				<category>Athletic</category>
@@ -852,7 +972,7 @@
 		</skill>
 		<skill version="2">
 			<name>Research</name>
-			<tech_level>4</tech_level>
+			<tech_level>8</tech_level>
 			<difficulty>IQ/A</difficulty>
 			<points>2</points>
 			<reference>B217</reference>
@@ -894,6 +1014,28 @@
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Savoir-Faire</name>
+			<specialization>Servant</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>2</points>
+			<reference>B218</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Savoir-Faire</name>
+				<specialization>High Society</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Sex Appeal</name>
 			<difficulty>HT/A</difficulty>
 			<points>2</points>
@@ -904,6 +1046,41 @@
 			<default>
 				<type>HT</type>
 				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Sleight of Hand</name>
+			<difficulty>DX/H</difficulty>
+			<points>1</points>
+			<reference>B221</reference>
+			<categories>
+				<category>Arts/Entertainment</category>
+				<category>Criminal/Street</category>
+			</categories>
+			<default>
+				<type>Skill</type>
+				<name>Filch</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Stealth</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B222</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -968,9 +1145,70 @@
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Survival</name>
+			<specialization>Woodlands</specialization>
+			<difficulty>Per/A</difficulty>
+			<points>2</points>
+			<reference>B223</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Arctic</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Desert</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Island/Beach</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Jungle</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Mountain</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Plains</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Swampland</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Teaching</name>
 			<difficulty>IQ/A</difficulty>
-			<points>2</points>
+			<points>3</points>
 			<reference>B224</reference>
 			<categories>
 				<category>Scholarly</category>
@@ -979,6 +1217,21 @@
 			<default>
 				<type>IQ</type>
 				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Thrown Weapon</name>
+			<specialization>Axe/Mace</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>2</points>
+			<reference>B226</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -991,47 +1244,8 @@
 				<category>Melee Combat</category>
 			</categories>
 		</skill>
-		<skill version="2">
-			<name>Savoir-Faire</name>
-			<specialization>Servant</specialization>
-			<difficulty>IQ/E</difficulty>
-			<points>1</points>
-			<reference>B218</reference>
-			<categories>
-				<category>Everyman</category>
-				<category>Knowledge</category>
-				<category>Social</category>
-			</categories>
-			<default>
-				<type>IQ</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Savoir-Faire</name>
-				<specialization>High Society</specialization>
-				<modifier>-2</modifier>
-			</default>
-		</skill>
 	</skill_list>
 	<equipment_list>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Boots</description>
-			<tech_level>5</tech_level>
-			<legality_class>4</legality_class>
-			<value>80</value>
-			<weight>3 lb</weight>
-			<reference>HT68</reference>
-			<notes>Flexible.</notes>
-			<categories>
-				<category>Defenses</category>
-			</categories>
-			<dr_bonus>
-				<location>feet</location>
-				<amount>2</amount>
-			</dr_bonus>
-		</equipment>
 		<equipment_container version="3" open="yes" state="equipped">
 			<description>Backpack, Frame</description>
 			<tech_level>1</tech_level>
@@ -1245,7 +1459,84 @@
 				</categories>
 			</equipment>
 		</equipment_container>
-		<equipment_container version="3" open="yes" state="equipped">
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Boots</description>
+			<tech_level>5</tech_level>
+			<legality_class>4</legality_class>
+			<value>80</value>
+			<weight>3 lb</weight>
+			<reference>HT68</reference>
+			<notes>Flexible.</notes>
+			<categories>
+				<category>Defenses</category>
+			</categories>
+			<dr_bonus>
+				<location>feet</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Small Mace</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>35</value>
+			<weight>3 lb</weight>
+			<reference>B271</reference>
+			<melee_weapon>
+				<damage>sw+2 cr</damage>
+				<strength>10</strength>
+				<usage>Swung</usage>
+				<reach>1</reach>
+				<parry>0U</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Axe/Mace</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Flail</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Two-Handed Axe/Mace</name>
+					<modifier>-3</modifier>
+				</default>
+			</melee_weapon>
+			<ranged_weapon>
+				<damage>sw+2 cr</damage>
+				<strength>10</strength>
+				<usage>Thrown</usage>
+				<accuracy>1</accuracy>
+				<range>x1/x1.5</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>T(1)</shots>
+				<bulk>-3</bulk>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Thrown Weapon</name>
+					<specialization>Axe/Mace</specialization>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Melee Weapon</category>
+				<category>Missile Weapon</category>
+			</categories>
+		</equipment>
+		<equipment_container version="3" open="no" state="equipped">
 			<description>Canteen</description>
 			<legality_class>4</legality_class>
 			<value>10</value>
@@ -1680,7 +1971,7 @@
 			<reference>B288</reference>
 		</equipment>
 		<equipment version="3" state="equipped">
-			<quantity>400</quantity>
+			<quantity>263</quantity>
 			<description>Coin</description>
 			<legality_class>4</legality_class>
 			<value>1</value>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="i12swhpc:-19mwr9qhkn3yu" version="2">
 	<created_date>Oct 9, 2014</created_date>
-	<modified_date>Nov 12, 2014 8:23 PM</modified_date>
+	<modified_date>Feb 26, 2015 7:59 PM</modified_date>
 	<profile>
 		<player_name>Tobit</player_name>
 		<campaign>Banestorm OG</campaign>
@@ -18,14 +18,16 @@
 		<gender>Male</gender>
 		<race>Human</race>
 		<tech_level>4</tech_level>
-		<notes>First Aid Kit from Car (TL 7, the atomic age)
+		<notes>First Aid Kit from Car (TL 7, the atomic age) 1/4 uses
 
-+1 Charisma</notes>
+2 pts. damage general
+
+1 pt in general for reputation in Caithness</notes>
 	</profile>
 	<HP>0</HP>
+	<current_hp>8</current_hp>
 	<FP>0</FP>
-	<current_fp>6</current_fp>
-	<total_points>136</total_points>
+	<total_points>181</total_points>
 	<ST>11</ST>
 	<DX>12</DX>
 	<IQ>10</IQ>
@@ -102,6 +104,16 @@
 			</skill_bonus>
 		</advantage>
 		<advantage version="2">
+			<name>Gizmo</name>
+			<type>Mental</type>
+			<levels>2</levels>
+			<points_per_level>5</points_per_level>
+			<reference>B57</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
 			<name>Absolute Direction</name>
 			<type>Mental/Physical</type>
 			<base_points>5</base_points>
@@ -165,6 +177,37 @@
 				<name compare="is">navigation</name>
 				<specialization compare="is">sea</specialization>
 				<amount>3</amount>
+			</skill_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Charisma</name>
+			<type>Mental</type>
+			<levels>1</levels>
+			<points_per_level>5</points_per_level>
+			<reference>B41</reference>
+			<notes>+1/level to Influence rolls</notes>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+			<skill_bonus>
+				<name compare="is">fortune-telling</name>
+				<specialization compare="is anything"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">leadership</name>
+				<specialization compare="is anything"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">panhandling</name>
+				<specialization compare="is anything"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">public speaking</name>
+				<specialization compare="is anything"></specialization>
+				<amount per_level="yes">1</amount>
 			</skill_bonus>
 		</advantage>
 		<advantage version="2">
@@ -458,7 +501,7 @@
 		<skill version="2">
 			<name>Acting</name>
 			<difficulty>IQ/A</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B174</reference>
 			<categories>
 				<category>Social</category>
@@ -482,7 +525,7 @@
 		<skill version="2">
 			<name>Bow</name>
 			<difficulty>DX/A</difficulty>
-			<points>8</points>
+			<points>13</points>
 			<reference>B182</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -491,6 +534,27 @@
 			<default>
 				<type>DX</type>
 				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Body Language</name>
+			<difficulty>Per/A</difficulty>
+			<points>1</points>
+			<reference>B181</reference>
+			<categories>
+				<category>Police</category>
+				<category>Social</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>Skill</type>
+				<name>Detect Lies</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Psychology</name>
+				<modifier>-4</modifier>
 			</default>
 		</skill>
 		<skill version="2">
@@ -533,7 +597,7 @@
 			<specialization>People</specialization>
 			<tech_level>4</tech_level>
 			<difficulty>IQ/E</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B186</reference>
 			<categories>
 				<category>Everyman</category>
@@ -558,7 +622,7 @@
 		<skill version="2">
 			<name>Diplomacy</name>
 			<difficulty>IQ/H</difficulty>
-			<points>2</points>
+			<points>4</points>
 			<reference>B187</reference>
 			<categories>
 				<category>Business</category>
@@ -596,6 +660,37 @@
 				<category>Combat/Weapon</category>
 				<category>Ranged Combat</category>
 			</categories>
+		</skill>
+		<skill version="2">
+			<name>Fast-Draw</name>
+			<specialization>Bow</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B194</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+		</skill>
+		<skill version="2">
+			<name>Fast-Talk</name>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B195</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Social</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Acting</name>
+				<modifier>-5</modifier>
+			</default>
 		</skill>
 		<skill version="2">
 			<name>First Aid</name>
@@ -777,7 +872,7 @@
 			<name>Mimicry</name>
 			<specialization>Animal Sounds</specialization>
 			<difficulty>IQ/H</difficulty>
-			<points>2</points>
+			<points>4</points>
 			<reference>B210</reference>
 			<categories>
 				<category>Animal</category>
@@ -866,7 +961,7 @@
 		<skill version="2">
 			<name>Observation</name>
 			<difficulty>Per/A</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B211</reference>
 			<categories>
 				<category>Criminal/Street</category>
@@ -885,9 +980,33 @@
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Merchant</name>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B209</reference>
+			<categories>
+				<category>Business</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Finance</name>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Market Analysis</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Public Speaking</name>
 			<difficulty>IQ/A</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B216</reference>
 			<categories>
 				<category>Business</category>
@@ -918,7 +1037,7 @@
 			<name>Savoir-Faire</name>
 			<specialization>Servant</specialization>
 			<difficulty>IQ/E</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B218</reference>
 			<categories>
 				<category>Everyman</category>
@@ -939,7 +1058,7 @@
 		<skill version="2">
 			<name>Scrounging</name>
 			<difficulty>Per/E</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B218</reference>
 			<categories>
 				<category>Criminal/Street</category>
@@ -953,7 +1072,7 @@
 			<name>Stealth</name>
 			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 			<difficulty>DX/A</difficulty>
-			<points>2</points>
+			<points>4</points>
 			<reference>B222</reference>
 			<categories>
 				<category>Criminal/Street</category>
@@ -1094,7 +1213,7 @@
 		<skill version="2">
 			<name>Tactics</name>
 			<difficulty>IQ/H</difficulty>
-			<points>1</points>
+			<points>3</points>
 			<reference>B224</reference>
 			<categories>
 				<category>Military</category>
@@ -1113,7 +1232,7 @@
 		<technique version="2">
 			<name>Targeted Attack (Bow, Face)</name>
 			<difficulty>H</difficulty>
-			<points>1</points>
+			<points>4</points>
 			<default>
 				<type>Skill</type>
 				<name>Bow</name>
@@ -1123,7 +1242,7 @@
 		<technique version="2">
 			<name>Targeted Attack (Bow, Vitals)</name>
 			<difficulty>H</difficulty>
-			<points>1</points>
+			<points>3</points>
 			<default>
 				<type>Skill</type>
 				<name>Bow</name>
@@ -1133,7 +1252,7 @@
 		<skill version="2">
 			<name>Tracking</name>
 			<difficulty>Per/A</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B226</reference>
 			<categories>
 				<category>Outdoor/Exploration</category>
@@ -1151,7 +1270,7 @@
 	</skill_list>
 	<equipment_list>
 		<equipment version="3" state="equipped">
-			<quantity>44</quantity>
+			<quantity>16</quantity>
 			<description>.40 S&amp;W (10x21mm)</description>
 			<legality_class>4</legality_class>
 			<value>0.3</value>
@@ -1172,99 +1291,6 @@
 			<categories>
 				<category>Missile Weapon</category>
 			</categories>
-		</equipment>
-		<equipment_container version="3" open="yes" state="equipped">
-			<description>Backpack, Small</description>
-			<tech_level>1</tech_level>
-			<legality_class>4</legality_class>
-			<value>60</value>
-			<weight>3 lb</weight>
-			<reference>B288</reference>
-			<prereq_list all="yes">
-				<contained_weight_prereq has="yes" compare="at most">40 lb</contained_weight_prereq>
-			</prereq_list>
-			<equipment version="3" state="equipped">
-				<quantity>1</quantity>
-				<description>Composite Bow</description>
-				<tech_level>1</tech_level>
-				<legality_class>4</legality_class>
-				<value>900</value>
-				<weight>4 lb</weight>
-				<reference>B275</reference>
-				<ranged_weapon>
-					<damage>thr+3 imp</damage>
-					<strength>10&#8224;</strength>
-					<accuracy>3</accuracy>
-					<range>x20/x25</range>
-					<rate_of_fire>1</rate_of_fire>
-					<shots>1(2)</shots>
-					<bulk>-7</bulk>
-					<default>
-						<type>DX</type>
-						<modifier>-5</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Bow</name>
-						<modifier>0</modifier>
-					</default>
-				</ranged_weapon>
-				<categories>
-					<category>Missile Weapon</category>
-				</categories>
-			</equipment>
-			<equipment version="3" state="equipped">
-				<quantity>1</quantity>
-				<description>Handset Radio</description>
-				<tech_level>7</tech_level>
-				<legality_class>4</legality_class>
-				<value>100</value>
-				<weight>1 lb</weight>
-				<reference>HT38</reference>
-				<notes>2-mile range. XS/5hrs.</notes>
-				<categories>
-					<category>General Equipment</category>
-				</categories>
-			</equipment>
-			<equipment_container version="3" open="yes" state="carried">
-				<description>Adventure Basics</description>
-				<tech_level>3</tech_level>
-				<legality_class>4</legality_class>
-				<value>0</value>
-				<weight>2 lb</weight>
-			</equipment_container>
-			<equipment version="3" state="equipped">
-				<quantity>1</quantity>
-				<description>Tent, 1-Man</description>
-				<tech_level>0</tech_level>
-				<legality_class>4</legality_class>
-				<value>50</value>
-				<weight>5 lb</weight>
-				<reference>B288</reference>
-				<notes>Includes ropes; no poles needed</notes>
-			</equipment>
-			<equipment version="3" state="equipped">
-				<quantity>1</quantity>
-				<description>Cellular Phone</description>
-				<tech_level>8</tech_level>
-				<legality_class>4</legality_class>
-				<value>600</value>
-				<weight>0.5 lb</weight>
-				<reference>HT39</reference>
-				<categories>
-					<category>General Equipment</category>
-				</categories>
-			</equipment>
-		</equipment_container>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
-			<description>Flashlight, Heavy</description>
-			<tech_level>6</tech_level>
-			<legality_class>4</legality_class>
-			<value>20</value>
-			<weight>1 lb</weight>
-			<reference>B288</reference>
-			<notes>30' beam, lasts 5 hours</notes>
 		</equipment>
 		<equipment version="3" state="equipped">
 			<quantity>10</quantity>
@@ -1363,6 +1389,198 @@
 				<category>Missile Weapon</category>
 			</categories>
 		</equipment>
+		<equipment_container version="3" open="yes" state="equipped">
+			<description>Bag of Holding</description>
+			<legality_class>4</legality_class>
+			<value>0</value>
+		</equipment_container>
+		<equipment_container version="3" open="yes" state="equipped">
+			<description>Backpack, Small</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>60</value>
+			<weight>3 lb</weight>
+			<reference>B288</reference>
+			<prereq_list all="yes">
+				<contained_weight_prereq has="yes" compare="at most">40 lb</contained_weight_prereq>
+			</prereq_list>
+			<equipment version="3" state="equipped">
+				<quantity>28</quantity>
+				<description>.40 S&amp;W (10x21mm)</description>
+				<legality_class>4</legality_class>
+				<value>0.3</value>
+				<weight>0.035 lb</weight>
+				<reference>HT176</reference>
+				<categories>
+					<category>Ammunition and Warheads</category>
+				</categories>
+			</equipment>
+			<equipment_container version="3" open="yes" state="carried">
+				<description>Adventure Basics</description>
+				<tech_level>3</tech_level>
+				<legality_class>4</legality_class>
+				<value>0</value>
+				<weight>2 lb</weight>
+			</equipment_container>
+			<equipment version="3" state="equipped">
+				<quantity>1</quantity>
+				<description>Cellular Phone</description>
+				<tech_level>8</tech_level>
+				<legality_class>4</legality_class>
+				<value>600</value>
+				<weight>0.5 lb</weight>
+				<reference>HT39</reference>
+				<categories>
+					<category>General Equipment</category>
+				</categories>
+			</equipment>
+			<equipment version="3" state="equipped">
+				<quantity>1</quantity>
+				<description>Flashlight, Heavy</description>
+				<tech_level>6</tech_level>
+				<legality_class>4</legality_class>
+				<value>20</value>
+				<weight>1 lb</weight>
+				<reference>B288</reference>
+				<notes>30' beam, lasts 5 hours</notes>
+			</equipment>
+			<equipment version="3" state="equipped">
+				<quantity>1</quantity>
+				<description>Handset Radio</description>
+				<tech_level>7</tech_level>
+				<legality_class>4</legality_class>
+				<value>100</value>
+				<weight>1 lb</weight>
+				<reference>HT38</reference>
+				<notes>2-mile range. XS/5hrs.</notes>
+				<categories>
+					<category>General Equipment</category>
+				</categories>
+			</equipment>
+			<equipment version="3" state="equipped">
+				<quantity>1</quantity>
+				<description>Large Knife</description>
+				<tech_level>0</tech_level>
+				<legality_class>4</legality_class>
+				<value>40</value>
+				<weight>1 lb</weight>
+				<reference>B272</reference>
+				<melee_weapon>
+					<damage>sw-2 cut</damage>
+					<strength>6</strength>
+					<usage>Swung</usage>
+					<reach>C,1</reach>
+					<parry>-1</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Knife</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Force Sword</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Main-Gauche</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Shortsword</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Sword!</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<melee_weapon>
+					<damage>thr imp</damage>
+					<strength>6</strength>
+					<usage>Thrust</usage>
+					<reach>C</reach>
+					<parry>-1</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Knife</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Force Sword</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Main-Gauche</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Shortsword</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Sword!</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<ranged_weapon>
+					<damage>thr imp</damage>
+					<strength>6</strength>
+					<usage>Thrown</usage>
+					<accuracy>+0</accuracy>
+					<range>x0.8/x1.5</range>
+					<rate_of_fire>1</rate_of_fire>
+					<shots>T(1)</shots>
+					<bulk>-2</bulk>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Thrown Weapon</name>
+						<specialization>Knife</specialization>
+						<modifier>0</modifier>
+					</default>
+				</ranged_weapon>
+				<categories>
+					<category>Melee Weapon</category>
+					<category>Missile Weapon</category>
+				</categories>
+			</equipment>
+			<equipment version="3" state="equipped">
+				<quantity>1</quantity>
+				<description>Tent, 1-Man</description>
+				<tech_level>0</tech_level>
+				<legality_class>4</legality_class>
+				<value>50</value>
+				<weight>5 lb</weight>
+				<reference>B288</reference>
+				<notes>Includes ropes; no poles needed</notes>
+			</equipment>
+		</equipment_container>
+		<equipment version="3" state="equipped">
+			<quantity>408</quantity>
+			<description>Coin</description>
+			<legality_class>4</legality_class>
+			<value>1</value>
+		</equipment>
 		<equipment version="3" state="equipped">
 			<quantity>1</quantity>
 			<description>Composite Bow (Fine)</description>
@@ -1409,12 +1627,6 @@
 				<location>torso</location>
 				<amount>5</amount>
 			</dr_bonus>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>310</quantity>
-			<description>Coin</description>
-			<legality_class>4</legality_class>
-			<value>1</value>
 		</equipment>
 		<equipment version="3" state="equipped">
 			<quantity>1</quantity>
@@ -1464,113 +1676,6 @@
 		</equipment_container>
 		<equipment version="3" state="equipped">
 			<quantity>1</quantity>
-			<description>Large Knife</description>
-			<tech_level>0</tech_level>
-			<legality_class>4</legality_class>
-			<value>40</value>
-			<weight>1 lb</weight>
-			<reference>B272</reference>
-			<melee_weapon>
-				<damage>sw-2 cut</damage>
-				<strength>6</strength>
-				<usage>Swung</usage>
-				<reach>C,1</reach>
-				<parry>-1</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Knife</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Force Sword</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Main-Gauche</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shortsword</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Sword!</name>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<melee_weapon>
-				<damage>thr imp</damage>
-				<strength>6</strength>
-				<usage>Thrust</usage>
-				<reach>C</reach>
-				<parry>-1</parry>
-				<block>No</block>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Knife</name>
-					<modifier>0</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Force Sword</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Main-Gauche</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Shortsword</name>
-					<modifier>-3</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Sword!</name>
-					<modifier>0</modifier>
-				</default>
-			</melee_weapon>
-			<ranged_weapon>
-				<damage>thr imp</damage>
-				<strength>6</strength>
-				<usage>Thrown</usage>
-				<accuracy>+0</accuracy>
-				<range>x0.8/x1.5</range>
-				<rate_of_fire>1</rate_of_fire>
-				<shots>T(1)</shots>
-				<bulk>-2</bulk>
-				<default>
-					<type>DX</type>
-					<modifier>-4</modifier>
-				</default>
-				<default>
-					<type>Skill</type>
-					<name>Thrown Weapon</name>
-					<specialization>Knife</specialization>
-					<modifier>0</modifier>
-				</default>
-			</ranged_weapon>
-			<categories>
-				<category>Melee Weapon</category>
-				<category>Missile Weapon</category>
-			</categories>
-		</equipment>
-		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
 			<description>Leather Gloves</description>
 			<tech_level>1</tech_level>
 			<legality_class>-</legality_class>
@@ -1582,6 +1687,23 @@
 			<dr_bonus>
 				<location>hands</location>
 				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Mail Underwear</description>
+			<tech_level>2</tech_level>
+			<legality_class>3</legality_class>
+			<value>50</value>
+			<weight>3 lb</weight>
+			<reference>B283</reference>
+			<notes>2 vs CR</notes>
+			<categories>
+				<category>Limb Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>4</amount>
 			</dr_bonus>
 		</equipment>
 		<equipment version="3" state="equipped">
