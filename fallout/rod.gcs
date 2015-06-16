@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="i8dlvewt:-10k4z4edlayvm" version="2">
 	<created_date>Apr 11, 2015</created_date>
-	<modified_date>Apr 16, 2015 7:01 PM</modified_date>
+	<modified_date>Jun 16, 2015 3:17 PM</modified_date>
 	<profile>
 		<player_name>vanboxel</player_name>
 		<name>Rodriguez</name>
@@ -17,6 +17,24 @@
 		<gender>Male</gender>
 		<race>Human</race>
 		<tech_level>8</tech_level>
+		<religion>Blood Type B+</religion>
+		<notes>Perception Quips: II
+
+Shield Rush - slam attack - Shield skill to hit, +2 dmg for shield, my shield takes damage
+	HP * velocity / 100 =
+	0-25   -&gt; 1d-3
+	26-50 -&gt; 1d-2
+	50 - 99 -&gt; 1d-1
+	100 - 149 -&gt; 1d
+	150 - 249 -&gt; 2d
+
+Shield Bash - melee attack - shield skill to hit, double damage if shoving (but only counts for knockback), ST-2 dmg forces DX check to stay standing.
+
+Flashbang Stun Grenade
+HT-5 (10yd), 1-2s fuse, if fail HT, stunned, HT-5 each s to recover, also smoke
+
+Stingball Grenade
+As Flashband, but also 1d+1 [1d-1 cr] cr ex (7 yd), 2-3s fuse</notes>
 		<!-- The portrait is a PNG file encoded as Base64. -->
 		<portrait>
 iVBORw0KGgoAAAANSUhEUgAAAJAAAADACAYAAADryOpPAACAAElEQVR42jy9BXhVV949zPvOdGrQ
@@ -1727,7 +1745,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 		<advantage_container version="2" open="yes">
 			<name>Quirks</name>
 			<advantage version="2">
-				<name>Broad-Minded</name>
+				<name>"Nothing gets through Riot Armor!"</name>
 				<type>Mental</type>
 				<base_points>-1</base_points>
 				<reference>B163</reference>
@@ -1763,7 +1781,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 				</categories>
 			</advantage>
 			<advantage version="2">
-				<name>Vow</name>
+				<name>Congenial</name>
 				<type>Mental</type>
 				<levels>0</levels>
 				<base_points>-1</base_points>
@@ -1776,6 +1794,20 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
+		<skill version="2">
+			<name>Acrobatics</name>
+			<difficulty>DX/H</difficulty>
+			<points>0</points>
+			<reference>B174</reference>
+			<notes>III</notes>
+			<categories>
+				<category>Athletic</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
 		<skill version="2">
 			<name>Acting</name>
 			<difficulty>IQ/A</difficulty>
@@ -1802,9 +1834,31 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 		</skill>
 		<skill version="2">
 			<name>Area Knowledge</name>
+			<specialization>Red Dome</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>0</points>
+			<reference>B176</reference>
+			<notes>I</notes>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Geography</name>
+				<specialization>Red Dome</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Area Knowledge</name>
 			<specialization>Vault 7</specialization>
 			<difficulty>IQ/E</difficulty>
-			<points>4</points>
+			<points>2</points>
 			<reference>B176</reference>
 			<categories>
 				<category>Everyman</category>
@@ -1828,6 +1882,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<difficulty>IQ/A</difficulty>
 			<points>1</points>
 			<reference>B178</reference>
+			<notes>II</notes>
 			<categories>
 				<category>Military</category>
 				<category>Repair/Maintainance</category>
@@ -1869,6 +1924,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<difficulty>DX/E</difficulty>
 			<points>2</points>
 			<reference>B182</reference>
+			<notes>I</notes>
 			<categories>
 				<category>Combat/Weapon</category>
 				<category>Melee Combat</category>
@@ -1900,6 +1956,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<difficulty>DX/A</difficulty>
 			<points>0</points>
 			<reference>B183</reference>
+			<notes>II</notes>
 			<categories>
 				<category>Athletic</category>
 				<category>Criminal/Street</category>
@@ -1960,6 +2017,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<difficulty>IQ/E</difficulty>
 			<points>1</points>
 			<reference>B186</reference>
+			<notes>I</notes>
 			<categories>
 				<category>Everyman</category>
 				<category>Knowledge</category>
@@ -1985,6 +2043,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<difficulty>Per/H</difficulty>
 			<points>1</points>
 			<reference>B187</reference>
+			<notes>I</notes>
 			<categories>
 				<category>Police</category>
 				<category>Social</category>
@@ -2008,8 +2067,9 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 		<skill version="2">
 			<name>Diplomacy</name>
 			<difficulty>IQ/H</difficulty>
-			<points>2</points>
+			<points>3</points>
 			<reference>B187</reference>
+			<notes>I</notes>
 			<categories>
 				<category>Business</category>
 				<category>Police</category>
@@ -2046,6 +2106,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<difficulty>IQ/A</difficulty>
 			<points>1</points>
 			<reference>B194</reference>
+			<notes>I</notes>
 			<categories>
 				<category>Criminal/Street</category>
 				<category>Military</category>
@@ -2085,6 +2146,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<difficulty>DX/E</difficulty>
 			<points>1</points>
 			<reference>B194</reference>
+			<notes>III</notes>
 			<categories>
 				<category>Combat/Weapon</category>
 				<category>Ranged Combat</category>
@@ -2156,8 +2218,9 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<name>Forensics</name>
 			<tech_level>8</tech_level>
 			<difficulty>IQ/H</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B196</reference>
+			<notes>I</notes>
 			<categories>
 				<category>Police</category>
 			</categories>
@@ -2196,8 +2259,9 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<specialization>Pistol</specialization>
 			<tech_level>8</tech_level>
 			<difficulty>DX/E</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B198</reference>
+			<notes>III</notes>
 			<categories>
 				<category>Combat/Weapon</category>
 				<category>Ranged Combat</category>
@@ -2281,6 +2345,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<difficulty>IQ/H</difficulty>
 			<points>1</points>
 			<reference>B201</reference>
+			<notes>II</notes>
 			<categories>
 				<category>Military</category>
 				<category>Police</category>
@@ -2326,6 +2391,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<difficulty>Will/A</difficulty>
 			<points>1</points>
 			<reference>B202</reference>
+			<notes>I</notes>
 			<categories>
 				<category>Criminal/Street</category>
 				<category>Police</category>
@@ -2362,6 +2428,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<difficulty>IQ/A</difficulty>
 			<points>1</points>
 			<reference>B204</reference>
+			<notes>III</notes>
 			<categories>
 				<category>Military</category>
 				<category>Social</category>
@@ -2393,6 +2460,31 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Merchant</name>
+			<difficulty>IQ/A</difficulty>
+			<points>0</points>
+			<reference>B209</reference>
+			<notes>III</notes>
+			<categories>
+				<category>Business</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Finance</name>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Market Analysis</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Observation</name>
 			<difficulty>Per/A</difficulty>
 			<points>0</points>
@@ -2416,7 +2508,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 		<skill version="2">
 			<name>Public Speaking</name>
 			<difficulty>IQ/A</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B216</reference>
 			<categories>
 				<category>Business</category>
@@ -2448,6 +2540,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<difficulty>Per/E</difficulty>
 			<points>1</points>
 			<reference>B218</reference>
+			<notes>I</notes>
 			<categories>
 				<category>Criminal/Street</category>
 			</categories>
@@ -2485,8 +2578,9 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<name>Shield</name>
 			<specialization>Shield</specialization>
 			<difficulty>DX/E</difficulty>
-			<points>1</points>
+			<points>3</points>
 			<reference>B220</reference>
+			<notes>I</notes>
 			<categories>
 				<category>Combat/Weapon</category>
 				<category>Melee Combat</category>
@@ -2501,6 +2595,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<difficulty>DX/A</difficulty>
 			<points>2</points>
 			<reference>B209</reference>
+			<notes>III</notes>
 			<categories>
 				<category>Combat/Weapon</category>
 				<category>Melee Combat</category>
@@ -2566,9 +2661,125 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			</default>
 		</skill>
 		<skill version="2">
+			<name>Survival</name>
+			<specialization>Desert</specialization>
+			<difficulty>Per/A</difficulty>
+			<points>0</points>
+			<reference>B223</reference>
+			<notes>III</notes>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Arctic</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Island/Beach</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Jungle</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Mountain</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Plains</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Swampland</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Woodlands</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Tactics</name>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B224</reference>
+			<notes>II</notes>
+			<categories>
+				<category>Military</category>
+				<category>Police</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Strategy</name>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Teaching</name>
+			<difficulty>IQ/A</difficulty>
+			<points>0</points>
+			<reference>B224</reference>
+			<notes>I</notes>
+			<categories>
+				<category>Scholarly</category>
+				<category>Social</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Tracking</name>
+			<difficulty>Per/A</difficulty>
+			<points>0</points>
+			<reference>B226</reference>
+			<notes>II</notes>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Wrestling</name>
 			<difficulty>DX/A</difficulty>
-			<points>1</points>
+			<points>2</points>
 			<reference>B228</reference>
 			<categories>
 				<category>Combat/Weapon</category>
@@ -2577,6 +2788,17 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 		</skill>
 	</skill_list>
 	<equipment_list>
+		<equipment version="3" state="equipped">
+			<quantity>18</quantity>
+			<description>.357 Magnum (9x33mmR)</description>
+			<legality_class>4</legality_class>
+			<value>0.4</value>
+			<weight>0.035 lb</weight>
+			<reference>HT176</reference>
+			<categories>
+				<category>Ammunition and Warheads</category>
+			</categories>
+		</equipment>
 		<equipment version="3" state="equipped">
 			<quantity>100</quantity>
 			<description>1/8" Rope</description>
@@ -2591,7 +2813,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			</categories>
 		</equipment>
 		<equipment version="3" state="equipped">
-			<quantity>73</quantity>
+			<quantity>30</quantity>
 			<description>7mmCL</description>
 			<tech_level>9</tech_level>
 			<legality_class>3</legality_class>
@@ -2720,7 +2942,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 				<legality_class>4</legality_class>
 				<value>0</value>
 				<equipment version="3" state="equipped">
-					<quantity>13</quantity>
+					<quantity>11</quantity>
 					<description>Antirad</description>
 					<tech_level>9</tech_level>
 					<legality_class>-</legality_class>
@@ -2910,6 +3132,111 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<weight>0.01 lb</weight>
 			<reference>B288</reference>
 		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Colt Python, .357 Magnum</description>
+			<tech_level>7</tech_level>
+			<legality_class>3</legality_class>
+			<value>850</value>
+			<weight>2.9 lb</weight>
+			<reference>HT96</reference>
+			<ranged_weapon>
+				<damage>3d pi</damage>
+				<strength>10</strength>
+				<accuracy>2</accuracy>
+				<range>190/2,100</range>
+				<rate_of_fire>3</rate_of_fire>
+				<shots>6(3i)</shots>
+				<bulk>-2</bulk>
+				<recoil>3</recoil>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Pistol</specialization>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Pistol</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Rifle</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Musket</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Shotgun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Machine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Submachine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Gun!</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Grenade Launcher</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Gyroc</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Anti-Armor Weapon</specialization>
+					<modifier>-4</modifier>
+				</default>
+			</ranged_weapon>
+			<notes>No lanyard ring.</notes>
+			<categories>
+				<category>Firearms</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Ethanol</description>
+			<tech_level>6</tech_level>
+			<legality_class>4</legality_class>
+			<value>1.5</value>
+			<weight>6 lb</weight>
+			<reference>HT16</reference>
+			<notes>"Quantity" represents gallons.</notes>
+			<categories>
+				<category>Power</category>
+			</categories>
+		</equipment>
 		<equipment version="3" state="carried">
 			<quantity>1</quantity>
 			<description>Filter Mask</description>
@@ -2969,15 +3296,27 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 		</equipment>
 		<equipment version="3" state="equipped">
 			<quantity>1</quantity>
-			<description>Gasoline</description>
-			<tech_level>6</tech_level>
+			<description>Geiger Counter</description>
+			<tech_level>8</tech_level>
 			<legality_class>4</legality_class>
-			<value>1.5</value>
-			<weight>6 lb</weight>
-			<reference>HT16</reference>
-			<notes>"Quantity" represents gallons.</notes>
+			<value>400</value>
+			<weight>0.5 lb</weight>
+			<reference>HT49</reference>
+			<notes>XS/10hrs.</notes>
 			<categories>
-				<category>Power</category>
+				<category>General Equipment</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Hyperstim</description>
+			<tech_level>9</tech_level>
+			<legality_class>2</legality_class>
+			<value>100</value>
+			<reference>UT205</reference>
+			<categories>
+				<category>Biotech</category>
+				<category>Drug</category>
 			</categories>
 		</equipment>
 		<equipment version="3" state="equipped">
@@ -3173,7 +3512,7 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<value>100</value>
 			<weight>0.4 lb</weight>
 			<reference>HT20</reference>
-			<notes>Complexity 2. Stores 10 GB. M/5hrs.</notes>
+			<notes>Pipboy; Complexity 2. Stores 10 GB. M/5hrs.</notes>
 			<categories>
 				<category>Information Technology</category>
 			</categories>
@@ -3190,6 +3529,22 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 			<categories>
 				<category>General Equipment</category>
 			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Stock (neckwear)</description>
+			<tech_level>5</tech_level>
+			<legality_class>4</legality_class>
+			<value>10</value>
+			<weight>0.5 lb</weight>
+			<reference>HT70</reference>
+			<categories>
+				<category>Defenses</category>
+			</categories>
+			<dr_bonus>
+				<location>neck</location>
+				<amount>2</amount>
+			</dr_bonus>
 		</equipment>
 		<equipment version="3" state="equipped">
 			<quantity>1</quantity>
@@ -3294,20 +3649,20 @@ ANCfRcmbyBo/V0DJyyXYBfQFBFAh/wcpJWQaAYmAqIJSJY+LeG4p+fdvEPUevl5jcfD/seD/Bxrm
 				<damage>HT-5(0.5) aff</damage>
 				<usage>Follow-Up</usage>
 			</ranged_weapon>
-			<notes>Integral targeting laser. 8xXS/40sec.</notes>
+			<notes>Integral targeting laser. 8xXS/40sec. IIII</notes>
 			<categories>
 				<category>Firearms</category>
 			</categories>
 		</equipment>
 		<equipment version="3" state="equipped">
-			<quantity>1</quantity>
+			<quantity>44</quantity>
 			<description>Water Purification Tablets</description>
 			<tech_level>6</tech_level>
 			<legality_class>4</legality_class>
-			<value>5</value>
-			<weight>0.1 lb</weight>
+			<value>0.1</value>
+			<weight>0.002 lb</weight>
 			<reference>B288</reference>
-			<notes>Bottle of 50; Purifies 1 quart each</notes>
+			<notes>Purifies 1 quart each</notes>
 		</equipment>
 	</equipment_list>
 	<print_settings units="in">
